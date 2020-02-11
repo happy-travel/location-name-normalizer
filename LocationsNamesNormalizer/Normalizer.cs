@@ -19,6 +19,7 @@ namespace LocationsNamesNormalizer
                 .ToTitleCase();
         }
 
+
         private static string ToTitleCase(this string value)
         {
             var textInfo = new CultureInfo(DefaultCultureName).TextInfo;
@@ -26,10 +27,10 @@ namespace LocationsNamesNormalizer
             return textInfo.ToTitleCase(value.ToLower());
         }
 
+
         private static string ToHtmlDecoded(this string value) => WebUtility.HtmlDecode(value);
 
-        private static string ToStringWithoutSpecialCharacters(this string value)
-            => Regex.Replace(value, SpecialCharactersProcessingPattern, "");
+        private static string ToStringWithoutSpecialCharacters(this string value) => Regex.Replace(value, SpecialCharactersProcessingPattern, "");
 
         private const string DefaultCultureName = "en-US";
         private const string SpecialCharactersProcessingPattern = "[^a-zA-Z0-9_.; ,<>/-]+";

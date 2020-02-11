@@ -11,6 +11,7 @@ namespace LocationsNamesNormalizer.UnitTests
             Assert.True(defaultName == "United Kingdom");
         }
 
+
         [Fact]
         public void Default_locality_name_should_be_selected_right()
         {

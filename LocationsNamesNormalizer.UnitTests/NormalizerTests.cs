@@ -15,6 +15,7 @@ namespace LocationsNamesNormalizer.UnitTests
             Assert.True(normalizedName == "Piazzale Roma, Venice, Italy");
         }
 
+
         [Fact]
         public void With_some_special_characters_strings_should_be_normalized()
         {
@@ -23,6 +24,7 @@ namespace LocationsNamesNormalizer.UnitTests
 
             Assert.True(normalizedName == "Piazzale Roma, Venice, Italy");
         }
+
 
         [Fact]
         public void With_html_string_should_be_normalized()

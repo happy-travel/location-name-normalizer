@@ -16,11 +16,13 @@ namespace LocationsNamesNormalizer
             _countries = JsonSerializer.Deserialize<List<Country>>(json);
         }
 
+
         public static string GetDefaultCountryName(string countryName)
         {
             var country = _countries.FirstOrDefault(c => c.Names.Contains(countryName));
             return country == null ? countryName : country.KeyName;
         }
+
 
         public static string GetDefaultLocalityName(string countryName, string localityName)
         {
@@ -29,6 +31,7 @@ namespace LocationsNamesNormalizer
 
             return locality == null ? localityName : locality.KeyName;
         }
+
 
         private const string CountriesFilePath = "Countries.json";
         private static readonly List<Country> _countries;

@@ -19,17 +19,20 @@ namespace LocationsNamesNormalizer
 
         public static string GetDefaultCountryName(string countryName)
         {
-            var country = _countries.FirstOrDefault(c => c.Names.Contains(countryName));
-            return country == null ? countryName : country.KeyName;
+            var normalizedName = Normalizer.Normalize(countryName);
+            var country = _countries.FirstOrDefault(c => c.Names.Contains(normalizedName));
+            return country == null ? normalizedName : country.KeyName;
         }
 
 
         public static string GetDefaultLocalityName(string countryName, string localityName)
         {
-            var country = _countries.FirstOrDefault(c => c.Names.Contains(countryName));
-            var locality = country?.Localities.FirstOrDefault(l => l.Names.Contains(localityName));
+            var normalizedCountryName = Normalizer.Normalize(countryName);
+            var normalizedLocalityName = Normalizer.Normalize(localityName);
+            var country = _countries.FirstOrDefault(c => c.Names.Contains(normalizedCountryName));
+            var locality = country?.Localities.FirstOrDefault(l => l.Names.Contains(normalizedLocalityName));
 
-            return locality == null ? localityName : locality.KeyName;
+            return locality == null ? normalizedLocalityName : locality.KeyName;
         }
 
 

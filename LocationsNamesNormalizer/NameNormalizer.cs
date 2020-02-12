@@ -4,7 +4,7 @@ using System.Text.RegularExpressions;
 
 namespace LocationsNamesNormalizer
 {
-    public static class Normalizer
+    public static class NameNormalizer
     {
         public static string Normalize(string value)
         {

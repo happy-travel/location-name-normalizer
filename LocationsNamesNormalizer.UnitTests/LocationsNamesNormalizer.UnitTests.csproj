@@ -19,10 +19,4 @@
       <ProjectReference Include="..\LocationsNamesNormalizer\LocationsNamesNormalizer.csproj" />
     </ItemGroup>
 
-    <ItemGroup>
-      <None Update="Countries.json">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </None>
-    </ItemGroup>
-
 </Project>

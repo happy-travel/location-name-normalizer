@@ -2,33 +2,32 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using LocationsNamesNormalizer.Models;
-using System.Text.Json;
 
 namespace LocationsNamesNormalizer
 {
-    public static class DefaultLocationNameSelector
+    public class DefaultLocationNameSelector : IDefaultLocationNamesSelector
     {
-        static DefaultLocationNameSelector()
+        public DefaultLocationNameSelector(INameNormalizer nameNormalizer, ILocationNamesRetriever locationNamesRetriever)
         {
-            _countries = new List<Country>();
-            using var reader = new StreamReader(CountriesFilePath);
-            var json = reader.ReadToEnd();
-            _countries = JsonSerializer.Deserialize<List<Country>>(json);
+            _nameNormalizer = nameNormalizer;
+
+            if (_countries == null || !_countries.Any())
+                _countries = locationNamesRetriever.RetrieveCountries();
         }
 
 
-        public static string GetDefaultCountryName(string countryName)
+        public string GetDefaultCountryName(string countryName)
         {
-            var normalizedName = NameNormalizer.Normalize(countryName);
+            var normalizedName = _nameNormalizer.Normalize(countryName);
             var country = _countries.FirstOrDefault(c => c.Names.Contains(normalizedName));
             return country == null ? normalizedName : country.KeyName;
         }
 
 
-        public static string GetDefaultLocalityName(string countryName, string localityName)
+        public string GetDefaultLocalityName(string countryName, string localityName)
         {
-            var normalizedCountryName = NameNormalizer.Normalize(countryName);
-            var normalizedLocalityName = NameNormalizer.Normalize(localityName);
+            var normalizedCountryName = _nameNormalizer.Normalize(countryName);
+            var normalizedLocalityName = _nameNormalizer.Normalize(localityName);
             var country = _countries.FirstOrDefault(c => c.Names.Contains(normalizedCountryName));
             var locality = country?.Localities.FirstOrDefault(l => l.Names.Contains(normalizedLocalityName));
 
@@ -36,7 +35,7 @@ namespace LocationsNamesNormalizer
         }
 
 
-        private const string CountriesFilePath = "Countries.json";
-        private static readonly List<Country> _countries;
+        private readonly INameNormalizer _nameNormalizer;
+        private static List<Country> _countries;
     }
 }

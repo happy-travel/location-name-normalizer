@@ -24,6 +24,8 @@ namespace LocationsNamesNormalizer.UnitTests
             var defaultName = _defaultLocationNamesSelector.GetDefaultLocalityName("Great Britain", "LONDON");
             Assert.True(defaultName == "London");
         }
+        
+        
 
 
         private readonly IDefaultLocationNamesSelector _defaultLocationNamesSelector;

@@ -12,13 +12,12 @@ namespace LocationsNamesNormalizer
             if (string.IsNullOrEmpty(value))
                 return string.Empty;
 
-            //if value is html encoded, after normalization html tags will be in uppercase,because we also want that value to be in titleCase
             return value.Trim()
                 .ToHtmlDecoded()
+                .ToStringWithoutHtmlTags()
                 .Replace("&", "and")
                 .ToStringWithoutSpecialCharacters()
                 .ToTitleCase();
         }
-       
     }
 }

@@ -35,10 +35,10 @@ namespace LocationsNamesNormalizer.UnitTests
         [Fact]
         public void With_html_string_should_be_normalized()
         {
-            string notNormalizedName = "&lt;b&gt;PIAZZALE ROMA,!@? VENICE, ITALY&lt;/b&gt;";
+            string notNormalizedName = "&lt;b&gt;PIAZZALE ROMA<,!@? VENICE, ITALY&lt;/b&gt;";
             var normalizedName = _nameNormalizer.Normalize(notNormalizedName);
-            //since normalizer return string in title case, html tags also will be in uppercase
-            Assert.True(normalizedName == "<B>Piazzale Roma, Venice, Italy</B>");
+
+            Assert.True(normalizedName == "Piazzale Roma, Venice, Italy");
         }
 
 

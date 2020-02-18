@@ -1,7 +1,9 @@
 using System.Globalization;
 using System.Linq;
 using System.Net;
+using System.Text;
 using System.Text.RegularExpressions;
+using System.Web;
 using HtmlAgilityPack;
 
 namespace LocationsNamesNormalizer.Extensions
@@ -21,10 +23,12 @@ namespace LocationsNamesNormalizer.Extensions
 
         public static string ToStringWithoutHtmlTags(this string value)
         {
-            HtmlDocument doc = new HtmlDocument();
-            doc.LoadHtml(value);
-            if (doc.DocumentNode.Descendants().Any(n => n.NodeType != HtmlNodeType.Text))
-                return Regex.Replace(value, HtmlTagsProcessingPattern, "", RegexOptions.Compiled);
+            HtmlDocument document = new HtmlDocument();
+            document.LoadHtml(value);
+            if (document.DocumentNode.Descendants().Any(n => n.NodeType != HtmlNodeType.Text))
+            {
+                return document.DocumentNode.InnerText;
+            }
 
             return value;
         }
@@ -34,8 +38,7 @@ namespace LocationsNamesNormalizer.Extensions
             => Regex.Replace(value, SpecialCharactersProcessingPattern, "", RegexOptions.Compiled);
 
 
-        private const string HtmlTagsProcessingPattern = "<.*?>";
         private const string DefaultCultureName = "en-US";
-        private const string SpecialCharactersProcessingPattern = "[^a-zA-Z0-9_.; ,-]+";
+        private const string SpecialCharactersProcessingPattern = @"[^\p{L}0-9_.; ,-]+";
     }
 }

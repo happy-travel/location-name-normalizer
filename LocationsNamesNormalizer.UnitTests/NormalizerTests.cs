@@ -1,3 +1,4 @@
+using System.Globalization;
 using System.Net;
 using Xunit;
 
@@ -35,10 +36,27 @@ namespace LocationsNamesNormalizer.UnitTests
         [Fact]
         public void With_html_string_should_be_normalized()
         {
-            string notNormalizedName = "&lt;b&gt;PIAZZALE ROMA<,!@? VENICE, ITALY&lt;/b&gt;";
+            string notNormalizedName = "&lt;b&gt;PIAZZALE ROMA<,!@?©¶' VENICE, ITALY&lt;/b&gt;";
             var normalizedName = _nameNormalizer.Normalize(notNormalizedName);
 
             Assert.True(normalizedName == "Piazzale Roma, Venice, Italy");
+        }
+
+
+        [Fact]
+        public void Null_string_should_be_replaced_with_empty()
+        {
+            var normalizedName = _nameNormalizer.Normalize(null);
+            Assert.True(normalizedName == string.Empty);
+        }
+
+
+        [Fact]
+        public void Letters_from_any_language_should_not_be_removed()
+        {
+            string notNormalizedName = "ՎԵՆԵՏԻԿ, ԻՏԱԼԻԱ";
+            var normalizedName = _nameNormalizer.Normalize(notNormalizedName);
+            Assert.True(normalizedName == "Վենետիկ, Իտալիա");
         }
 
 

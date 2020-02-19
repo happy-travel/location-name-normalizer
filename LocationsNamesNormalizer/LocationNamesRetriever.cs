@@ -1,7 +1,9 @@
 using System.Collections.Generic;
 using System.IO;
 using LocationsNamesNormalizer.Models;
-using System.Text.Json;
+using System.Reflection;
+using Newtonsoft.Json;
+using JsonSerializer = Newtonsoft.Json.JsonSerializer;
 
 namespace LocationsNamesNormalizer
 {
@@ -11,8 +13,14 @@ namespace LocationsNamesNormalizer
         {
             try
             {
-                var json = File.ReadAllText(CountriesFilePath);
-                return JsonSerializer.Deserialize<List<Country>>(json);
+                var assembly = Assembly.GetExecutingAssembly();
+                using var stream = assembly.GetManifestResourceStream(CountriesFilePath);
+                if (stream == null)
+                    return new List<Country>();
+
+                using var jsonTextReader = new JsonTextReader(new StreamReader(stream));
+                var serializer = new JsonSerializer();
+                return serializer.Deserialize<List<Country>>(jsonTextReader);
             }
             catch
             {
@@ -21,6 +29,6 @@ namespace LocationsNamesNormalizer
         }
 
 
-        private const string CountriesFilePath = "Countries.json";
+        private const string CountriesFilePath = "LocationsNamesNormalizer.Countries.json";
     }
 }

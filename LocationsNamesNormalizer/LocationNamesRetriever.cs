@@ -18,7 +18,8 @@ namespace LocationsNamesNormalizer
                 if (stream == null)
                     return new List<Country>();
 
-                using var jsonTextReader = new JsonTextReader(new StreamReader(stream));
+                using var streamReader = new StreamReader(stream);
+                using var jsonTextReader = new JsonTextReader(streamReader);
                 var serializer = new JsonSerializer();
                 return serializer.Deserialize<List<Country>>(jsonTextReader);
             }

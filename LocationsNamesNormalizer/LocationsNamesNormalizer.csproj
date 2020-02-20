@@ -2,9 +2,14 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Company>HappyTravel</Company>
+    <Authors>Hasmik Harutyunyan</Authors>
     <Version>1.0</Version>
     <PackageReleaseNotes>Added names normalizator and default locations selector.</PackageReleaseNotes>
+    <Description>Locations names normalizer</Description>
     <PackageVersion>1.0</PackageVersion>
+    <PackageProjectUrl>https://github.com/happy-travel/locations-names-normalizer</PackageProjectUrl>
+    <RepositoryURL>https://github.com/happy-travel/locations-names-normalizer</RepositoryURL>
   </PropertyGroup>
 
   <ItemGroup>

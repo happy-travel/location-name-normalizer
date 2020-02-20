@@ -4,6 +4,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <Company>HappyTravel</Company>
     <Authors>Hasmik Harutyunyan</Authors>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Version>1.0</Version>
     <PackageReleaseNotes>Added names normalizator and default locations selector.</PackageReleaseNotes>
     <Description>Locations names normalizer</Description>

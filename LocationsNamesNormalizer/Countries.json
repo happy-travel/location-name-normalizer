@@ -1,0 +1,17 @@
+[
+  {
+    "KeyName": "United Kingdom",
+    "Names": [
+      "United Kingdom",
+      "Great Britain"
+    ],
+    "Localities": [
+      {
+        "KeyName": "London",
+        "Names": [
+          "London"
+        ]
+      }
+    ]
+  }
+]

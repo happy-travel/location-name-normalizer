@@ -14,7 +14,7 @@ namespace LocationsNamesNormalizer
             try
             {
                 var assembly = Assembly.GetExecutingAssembly();
-                using var stream = assembly.GetManifestResourceStream(CountriesFilePath);
+                using var stream = assembly.GetManifestResourceStream(CountriesResourceName);
                 if (stream == null)
                     return new List<Country>();
 
@@ -30,6 +30,6 @@ namespace LocationsNamesNormalizer
         }
 
 
-        private const string CountriesFilePath = "LocationsNamesNormalizer.Countries.json";
+        private const string CountriesResourceName = "LocationsNamesNormalizer.Countries.json";
     }
 }

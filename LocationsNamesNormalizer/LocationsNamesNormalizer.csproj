@@ -2,20 +2,27 @@
 
     <PropertyGroup>
         <TargetFramework>netcoreapp3.1</TargetFramework>
+        <Company>HappyTravel</Company>
+        <Authors>Hasmik Harutyunyan</Authors>
+        <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <Version>1.1</Version>
         <PackageReleaseNotes>Added parentheses in normalization.</PackageReleaseNotes>
+        <Description>Locations names normalizer</Description>
         <PackageVersion>1.1</PackageVersion>
+        <PackageProjectUrl>https://github.com/happy-travel/locations-names-normalizer</PackageProjectUrl>
+        <RepositoryURL>https://github.com/happy-travel/locations-names-normalizer</RepositoryURL>
     </PropertyGroup>
 
     <ItemGroup>
-        <None Remove="Countries.json"/>
-        <EmbeddedResource Include="Countries.json"/>
+        <None Remove="Countries.json" />
+        <EmbeddedResource Include="Countries.json" />
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="HtmlAgilityPack" Version="1.11.18"/>
-        <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.1"/>
-        <PackageReference Include="Newtonsoft.Json" Version="9.0.1"/>
+        <PackageReference Include="HtmlAgilityPack" Version="1.11.18" />
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.1" />
+        <PackageReference Include="Newtonsoft.Json" Version="9.0.1" />
     </ItemGroup>
 
 </Project>

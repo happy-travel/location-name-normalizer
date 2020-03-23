@@ -39,6 +39,6 @@ namespace LocationsNamesNormalizer.Extensions
 
 
         private const string DefaultCultureName = "en-US";
-        private const string SpecialCharactersProcessingPattern = @"[^\p{L}0-9_.; ,-]+";
+        private const string SpecialCharactersProcessingPattern = @"[^\p{L}0-9_.(); ,-]+";
     }
 }

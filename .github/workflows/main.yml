@@ -1,4 +1,4 @@
-name: locations-names-normalizer NuGet package Generation
+name: location-name-normalizer NuGet package Generation
 
 on:
   push:
@@ -24,4 +24,4 @@ jobs:
       shell: bash
 
     - name: Push generated package to GitHub registry
-      run: nuget push ..\locations-names-normalizer\LocationsNamesNormalizer\bin\Release\*.nupkg -Source "GPR"
+      run: nuget push ..\location-name-normalizer\LocationNameNormalizer\bin\Release\*.nupkg -Source "GPR"

@@ -1,6 +1,3 @@
-using System.Globalization;
-using System.Net;
-using System.Text.RegularExpressions;
 using LocationsNamesNormalizer.Extensions;
 
 namespace LocationsNamesNormalizer

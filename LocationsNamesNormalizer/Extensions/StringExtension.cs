@@ -1,9 +1,8 @@
+using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Net;
-using System.Text;
 using System.Text.RegularExpressions;
-using System.Web;
 using HtmlAgilityPack;
 
 namespace LocationsNamesNormalizer.Extensions
@@ -11,10 +10,14 @@ namespace LocationsNamesNormalizer.Extensions
     internal static class StringExtension
     {
         public static string ToTitleCase(this string value)
+            => ToTitleCase(new List<string>(1) {value})
+                .SingleOrDefault();
+
+
+        public static List<string> ToTitleCase(this List<string> values)
         {
             var textInfo = new CultureInfo(DefaultCultureName).TextInfo;
-
-            return textInfo.ToTitleCase(value.ToLower());
+            return values.Select(v => textInfo.ToTitleCase(v)).ToList();
         }
 
 
@@ -23,12 +26,10 @@ namespace LocationsNamesNormalizer.Extensions
 
         public static string ToStringWithoutHtmlTags(this string value)
         {
-            HtmlDocument document = new HtmlDocument();
+            var document = new HtmlDocument();
             document.LoadHtml(value);
             if (document.DocumentNode.Descendants().Any(n => n.NodeType != HtmlNodeType.Text))
-            {
                 return document.DocumentNode.InnerText;
-            }
 
             return value;
         }

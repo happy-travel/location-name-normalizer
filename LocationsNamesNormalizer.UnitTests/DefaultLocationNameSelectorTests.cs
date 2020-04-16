@@ -1,3 +1,4 @@
+using System.Linq;
 using Xunit;
 
 namespace LocationsNamesNormalizer.UnitTests
@@ -42,6 +43,29 @@ namespace LocationsNamesNormalizer.UnitTests
         }
 
 
+        [Fact]
+        public void All_country_names_should_be_returned()
+        {
+            var countriesByKeyName = _defaultLocationNamesSelector.GetCountryNames("Czechia");
+            var countriesByNotKeyName = _defaultLocationNamesSelector.GetCountryNames("Czech Republic");
+
+            Assert.Contains("Czechia", countriesByKeyName);
+            Assert.Contains("Czech Republic", countriesByKeyName);
+            Assert.True(countriesByKeyName.SequenceEqual(countriesByNotKeyName));
+        }
+
+        
+        [Fact]
+        public void All_locality_names_should_be_returned()
+        {
+            var localityNamesByKeyName= _defaultLocationNamesSelector.GetLocalityNames("Russia", "Moscow");
+            var localityNamesByNotKeyName = _defaultLocationNamesSelector.GetLocalityNames("Russian federation", "Moskwa");
+            
+            Assert.Contains("Moscow", localityNamesByKeyName);
+            Assert.Contains("Moskwa", localityNamesByKeyName);
+            Assert.True( localityNamesByKeyName.SequenceEqual(localityNamesByNotKeyName));
+        }
+        
         private readonly IDefaultLocationNamesSelector _defaultLocationNamesSelector;
     }
 }

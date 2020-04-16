@@ -1,35 +1,30 @@
+using System;
 using System.Collections.Generic;
 using System.IO;
-using LocationsNamesNormalizer.Models;
 using System.Reflection;
+using LocationNameNormalizer.Models;
 using Newtonsoft.Json;
 using JsonSerializer = Newtonsoft.Json.JsonSerializer;
 
-namespace LocationsNamesNormalizer
+namespace LocationNameNormalizer
 {
     public class LocationNamesRetriever : ILocationNamesRetriever
     {
         public List<Country> RetrieveCountries()
         {
-            try
-            {
-                var assembly = Assembly.GetExecutingAssembly();
-                using var stream = assembly.GetManifestResourceStream(CountriesResourceName);
-                if (stream == null)
-                    return new List<Country>();
+            var assembly = Assembly.GetExecutingAssembly();
+            using var stream = assembly.GetManifestResourceStream($"{assembly.GetName().Name}.{CountriesResourceName}");
+            if (stream is null)
+                throw new Exception($"Resource file '{CountriesResourceName}' not found.");
 
-                using var streamReader = new StreamReader(stream);
-                using var jsonTextReader = new JsonTextReader(streamReader);
-                var serializer = new JsonSerializer();
-                return serializer.Deserialize<List<Country>>(jsonTextReader);
-            }
-            catch
-            {
-                return new List<Country>();
-            }
+            using var streamReader = new StreamReader(stream);
+            using var jsonTextReader = new JsonTextReader(streamReader);
+            var serializer = new JsonSerializer();
+
+            return serializer.Deserialize<List<Country>>(jsonTextReader);
         }
 
 
-        private const string CountriesResourceName = "LocationsNamesNormalizer.Countries.json";
+        private const string CountriesResourceName = "Countries.json";
     }
 }

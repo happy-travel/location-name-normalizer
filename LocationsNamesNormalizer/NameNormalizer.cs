@@ -1,6 +1,6 @@
-using LocationsNamesNormalizer.Extensions;
+using LocationNameNormalizer.Extensions;
 
-namespace LocationsNamesNormalizer
+namespace LocationNameNormalizer
 {
     public class NameNormalizer : INameNormalizer
     {

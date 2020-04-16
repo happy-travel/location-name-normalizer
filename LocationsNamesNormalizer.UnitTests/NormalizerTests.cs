@@ -1,5 +1,4 @@
-using System.Globalization;
-using System.Net;
+using LocationNameNormalizer;
 using Xunit;
 
 namespace LocationsNamesNormalizer.UnitTests

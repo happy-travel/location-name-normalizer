@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace LocationsNamesNormalizer.Models
+namespace LocationNameNormalizer.Models
 {
     public class Country
     {

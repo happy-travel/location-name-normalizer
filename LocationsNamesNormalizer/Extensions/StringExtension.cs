@@ -5,7 +5,7 @@ using System.Net;
 using System.Text.RegularExpressions;
 using HtmlAgilityPack;
 
-namespace LocationsNamesNormalizer.Extensions
+namespace LocationNameNormalizer.Extensions
 {
     internal static class StringExtension
     {
@@ -17,7 +17,9 @@ namespace LocationsNamesNormalizer.Extensions
         public static List<string> ToTitleCase(this List<string> values)
         {
             var textInfo = new CultureInfo(DefaultCultureName).TextInfo;
-            return values.Select(v => textInfo.ToTitleCase(v)).ToList();
+
+            //ToLower() must be used, otherwise we get uppercase 
+            return values.Select(v => textInfo.ToTitleCase(v.ToLower())).ToList();
         }
 
 

@@ -1,7 +1,7 @@
 using System.Collections.Generic;
-using LocationsNamesNormalizer.Models;
+using LocationNameNormalizer.Models;
 
-namespace LocationsNamesNormalizer
+namespace LocationNameNormalizer
 {
     public interface ILocationNamesRetriever
     {

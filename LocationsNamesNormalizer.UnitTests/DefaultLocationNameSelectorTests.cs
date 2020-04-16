@@ -1,4 +1,5 @@
 using System.Linq;
+using LocationNameNormalizer;
 using Xunit;
 
 namespace LocationsNamesNormalizer.UnitTests
@@ -15,7 +16,7 @@ namespace LocationsNamesNormalizer.UnitTests
         public void Default_country_name_should_be_selected_right()
         {
             var defaultName = _defaultLocationNamesSelector.GetDefaultCountryName("Great Britain");
-            Assert.True(defaultName == "United Kingdom");
+            Assert.True(defaultName == "The United Kingdom");
         }
 
 
@@ -46,7 +47,7 @@ namespace LocationsNamesNormalizer.UnitTests
         [Fact]
         public void All_country_names_should_be_returned()
         {
-            var countriesByKeyName = _defaultLocationNamesSelector.GetCountryNames("Czechia");
+            var countriesByKeyName = _defaultLocationNamesSelector.GetCountryNames("The Czech Republic");
             var countriesByNotKeyName = _defaultLocationNamesSelector.GetCountryNames("Czech Republic");
 
             Assert.Contains("Czechia", countriesByKeyName);

@@ -1,10 +1,9 @@
 using System.Collections.Generic;
-using System.Globalization;
 using System.Linq;
-using LocationsNamesNormalizer.Extensions;
-using LocationsNamesNormalizer.Models;
+using LocationNameNormalizer.Extensions;
+using LocationNameNormalizer.Models;
 
-namespace LocationsNamesNormalizer
+namespace LocationNameNormalizer
 {
     public class DefaultLocationNameSelector : IDefaultLocationNamesSelector
     {
@@ -20,7 +19,8 @@ namespace LocationsNamesNormalizer
         public string GetDefaultCountryName(string countryName)
         {
             var normalizedName = _nameNormalizer.Normalize(countryName);
-            var country = _countries.FirstOrDefault(c => c.Names.Contains(normalizedName));
+            var country = GetCountry(normalizedName);
+            
             return country == null ? normalizedName : country.KeyName.ToTitleCase();
         }
 
@@ -29,8 +29,12 @@ namespace LocationsNamesNormalizer
         {
             var normalizedCountryName = _nameNormalizer.Normalize(countryName);
             var normalizedLocalityName = _nameNormalizer.Normalize(localityName);
-            var country = _countries.FirstOrDefault(c => c.Names.Contains(normalizedCountryName));
-            var locality = country?.Localities.FirstOrDefault(l => l.Names.Contains(normalizedLocalityName));
+
+            var country = GetCountry(normalizedCountryName);
+            if (country is null)
+                return normalizedLocalityName;
+
+            var locality = GetLocality(country, normalizedLocalityName);
 
             return locality == null ? normalizedLocalityName : locality.KeyName.ToTitleCase();
         }
@@ -70,17 +74,17 @@ namespace LocationsNamesNormalizer
 
         private static Country GetCountry(string countryName)
         {
-            var normalizedName = countryName.ToUpperInvariant();
-            return _countries.SingleOrDefault(c => c.KeyName.Equals(normalizedName)) 
-                ?? _countries.SingleOrDefault(c => c.Names.Select(n => n).Contains(normalizedName));
+            var upperCased = countryName.ToUpperInvariant();
+            return _countries.SingleOrDefault(c => c.KeyName.Equals(upperCased)) 
+                ?? _countries.SingleOrDefault(c => c.Names.Select(n => n).Contains(upperCased));
         }
 
 
         private static Locality GetLocality(Country country, string localityName)
         {
-            var normalizedName = localityName.ToUpperInvariant();
-            return country.Localities.SingleOrDefault(l => l.KeyName.Equals(normalizedName))
-                ?? country.Localities.SingleOrDefault(l => l.Names.Select(i => i).Contains(normalizedName));
+            var upperCased = localityName.ToUpperInvariant();
+            return country.Localities.SingleOrDefault(l => l.KeyName.Equals(upperCased))
+                ?? country.Localities.SingleOrDefault(l => l.Names.Select(i => i).Contains(upperCased));
         }
         
         

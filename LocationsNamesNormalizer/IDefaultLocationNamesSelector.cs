@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace LocationsNamesNormalizer
+namespace LocationNameNormalizer
 {
     public interface IDefaultLocationNamesSelector
     {

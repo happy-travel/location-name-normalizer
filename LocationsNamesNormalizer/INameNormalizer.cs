@@ -1,4 +1,4 @@
-namespace LocationsNamesNormalizer
+namespace LocationNameNormalizer
 {
     public interface INameNormalizer
     {

@@ -1,8 +1,7 @@
 using System.Linq;
-using LocationNameNormalizer;
 using Xunit;
 
-namespace LocationsNamesNormalizer.UnitTests
+namespace LocationNameNormalizer.UnitTests
 {
     public class DefaultLocationNameSelectorTests
     {

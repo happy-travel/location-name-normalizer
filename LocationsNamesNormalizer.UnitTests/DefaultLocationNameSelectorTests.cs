@@ -51,6 +51,7 @@ namespace LocationsNamesNormalizer.UnitTests
 
             Assert.Contains("Czechia", countriesByKeyName);
             Assert.Contains("Czech Republic", countriesByKeyName);
+            Assert.Contains("The Czech Republic", countriesByKeyName);
             Assert.True(countriesByKeyName.SequenceEqual(countriesByNotKeyName));
         }
 

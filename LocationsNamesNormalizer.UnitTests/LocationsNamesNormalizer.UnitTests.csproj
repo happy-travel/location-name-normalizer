@@ -16,7 +16,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\LocationsNamesNormalizer\LocationsNamesNormalizer.csproj" />
+      <ProjectReference Include="..\LocationsNamesNormalizer\LocationNameNormalizer.csproj" />
     </ItemGroup>
 
 </Project>

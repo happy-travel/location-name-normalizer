@@ -7,14 +7,28 @@ using HtmlAgilityPack;
 
 namespace LocationNameNormalizer.Extensions
 {
-    internal static class StringExtension
+    public static class StringExtensions
     {
-        public static string ToTitleCase(this string value)
+        public static string ToNormalizedName(this string target)
+        {
+            if (string.IsNullOrEmpty(target))
+                return string.Empty;
+
+            return target.Trim()
+                .ToHtmlDecoded()
+                .ToStringWithoutHtmlTags()
+                .Replace("&", "and")
+                .ToStringWithoutSpecialCharacters()
+                .ToTitleCase();
+        }
+
+
+        internal static string ToTitleCase(this string value)
             => ToTitleCase(new List<string>(1) {value})
                 .SingleOrDefault();
 
 
-        public static List<string> ToTitleCase(this List<string> values)
+        internal static List<string> ToTitleCase(this List<string> values)
         {
             var textInfo = new CultureInfo(DefaultCultureName).TextInfo;
 
@@ -23,10 +37,10 @@ namespace LocationNameNormalizer.Extensions
         }
 
 
-        public static string ToHtmlDecoded(this string value) => WebUtility.HtmlDecode(value);
+        internal static string ToHtmlDecoded(this string value) => WebUtility.HtmlDecode(value);
 
 
-        public static string ToStringWithoutHtmlTags(this string value)
+        internal static string ToStringWithoutHtmlTags(this string value)
         {
             var document = new HtmlDocument();
             document.LoadHtml(value);
@@ -37,7 +51,7 @@ namespace LocationNameNormalizer.Extensions
         }
 
 
-        public static string ToStringWithoutSpecialCharacters(this string value)
+        internal static string ToStringWithoutSpecialCharacters(this string value)
             => Regex.Replace(value, SpecialCharactersProcessingPattern, "", RegexOptions.Compiled);
 
 

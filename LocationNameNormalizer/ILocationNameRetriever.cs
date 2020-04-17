@@ -3,7 +3,7 @@ using LocationNameNormalizer.Models;
 
 namespace LocationNameNormalizer
 {
-    public interface ILocationNamesRetriever
+    public interface ILocationNameRetriever
     {
         List<Country> RetrieveCountries();
     }

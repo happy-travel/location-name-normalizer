@@ -3,18 +3,19 @@ using Xunit;
 
 namespace LocationNameNormalizer.UnitTests
 {
-    public class DefaultLocationNameSelectorTests
+    public class DefaultLocationNameNormalizerTests
     {
-        public DefaultLocationNameSelectorTests()
+        public DefaultLocationNameNormalizerTests()
         {
-            _defaultLocationNamesSelector = new DefaultLocationNameSelector(new NameNormalizer(), new LocationNamesRetriever());
+            _defaultLocationNamesSelector = new DefaultLocationNameNormalizer(new FileLocationNameRetriever());
+            ((DefaultLocationNameNormalizer) _defaultLocationNamesSelector).Init();
         }
 
 
         [Fact]
         public void Default_country_name_should_be_selected_right()
         {
-            var defaultName = _defaultLocationNamesSelector.GetDefaultCountryName("Great Britain");
+            var defaultName = _defaultLocationNamesSelector.GetNormalizedCountryName("Great Britain");
             Assert.True(defaultName == "The United Kingdom");
         }
 
@@ -22,7 +23,7 @@ namespace LocationNameNormalizer.UnitTests
         [Fact]
         public void Default_locality_name_should_be_selected_right()
         {
-            var defaultName = _defaultLocationNamesSelector.GetDefaultLocalityName("Great Britain", "LONDON");
+            var defaultName = _defaultLocationNamesSelector.GetNormalizedLocalityName("Great Britain", "LONDON");
             Assert.True(defaultName == "London");
         }
 
@@ -30,7 +31,7 @@ namespace LocationNameNormalizer.UnitTests
         [Fact]
         public void Not_existing_locality_should_be_normalized()
         {
-            var defaultName = _defaultLocationNamesSelector.GetDefaultLocalityName("ghgh", "hgh");
+            var defaultName = _defaultLocationNamesSelector.GetNormalizedLocalityName("ghgh", "hgh");
             Assert.True(defaultName == "Hgh");
         }
 
@@ -38,7 +39,7 @@ namespace LocationNameNormalizer.UnitTests
         [Fact]
         public void Not_existing_country_should_be_normalized()
         {
-            var defaultName = _defaultLocationNamesSelector.GetDefaultCountryName("fhghgh");
+            var defaultName = _defaultLocationNamesSelector.GetNormalizedCountryName("fhghgh");
             Assert.True(defaultName == "Fhghgh");
         }
 
@@ -67,6 +68,6 @@ namespace LocationNameNormalizer.UnitTests
             Assert.True( localityNamesByKeyName.SequenceEqual(localityNamesByNotKeyName));
         }
         
-        private readonly IDefaultLocationNamesSelector _defaultLocationNamesSelector;
+        private readonly ILocationNameNormalizer _defaultLocationNamesSelector;
     }
 }

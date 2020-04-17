@@ -5,11 +5,17 @@ namespace LocationNameNormalizer.Extensions
 {
     public static class ServiceCollectionExtensions
     {
-        public static IServiceCollection AddNameNormalizer(this IServiceCollection services)
+        public static IServiceCollection AddNameNormalizationServices(this IServiceCollection services)
         {
-            services.TryAddSingleton<ILocationNamesRetriever, LocationNamesRetriever>();
-            services.TryAddSingleton<IDefaultLocationNamesSelector, DefaultLocationNameSelector>();
-            services.TryAddSingleton<INameNormalizer, NameNormalizer>();
+            services.TryAddSingleton<ILocationNameRetriever, FileLocationNameRetriever>();
+            services.TryAddSingleton<ILocationNameNormalizer>(provider =>
+            {
+                var retriever = provider.GetService<ILocationNameRetriever>();
+                var selector = new DefaultLocationNameNormalizer(retriever);
+                selector.Init();
+
+                return selector;
+            });
 
             return services;
         }

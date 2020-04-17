@@ -2,11 +2,11 @@ using System.Collections.Generic;
 
 namespace LocationNameNormalizer
 {
-    public interface IDefaultLocationNamesSelector
+    public interface ILocationNameNormalizer
     {
-        string GetDefaultCountryName(string countryName);
+        string GetNormalizedCountryName(string countryName);
 
-        string GetDefaultLocalityName(string countryName, string localityName);
+        string GetNormalizedLocalityName(string countryName, string localityName);
 
         List<string> GetCountryNames(string countryName);
 

@@ -1,0 +1,430 @@
+﻿[
+  {
+    "KeyName": "THE BAHAMAS",
+    "Names": [
+      "THE BAHAMAS",
+      "BAHAMAS",
+      "THE COMMONWEALTH OF THE BAHAMAS",
+      "COMMONWEALTH OF THE BAHAMAS"
+    ],
+    "Localities": [
+      {
+        "KeyName": "NASSAU",
+        "Names": [
+          "NASSAU"
+        ]
+      }
+    ]
+  },
+  {
+    "KeyName": "THE CAYMAN ISLANDS",
+    "Names": [
+      "THE CAYMAN ISLANDS",
+      "CAYMAN ISLANDS"
+    ],
+    "Localities": [
+      {
+        "KeyName": "GEORGE TOWN",
+        "Names": [
+          "GEORGE TOWN"
+        ]
+      }
+    ]
+  },
+  {
+    "KeyName": "THE CENTRAL AFRICAN REPUBLIC",
+    "Names": [
+      "THE CENTRAL AFRICAN REPUBLIC",
+      "CENTRAL AFRICAN REPUBLIC",
+      "CAR"
+    ],
+    "Localities": [
+      {
+        "KeyName": "BANGUI",
+        "Names": [
+          "BANGUI",
+          "BANGI"
+        ]
+      }
+    ]
+  },
+  {
+    "KeyName": "THE UNION OF THE COMOROS",
+    "Names": [
+      "THE UNION OF THE COMOROS",
+      "UNION OF THE COMOROS",
+      "THE COMOROS",
+      "COMOROS"
+    ],
+    "Localities": [
+      {
+        "KeyName": "MORONI",
+        "Names": [
+          "MORONI"
+        ]
+      }
+    ]
+  },
+  {
+    "KeyName": "THE CZECH REPUBLIC",
+    "Names": [
+      "THE CZECH REPUBLIC",
+      "CZECH REPUBLIC",
+      "CZECHIA"
+    ],
+    "Localities": [
+      {
+        "KeyName": "PRAGUE",
+        "Names": [
+          "PRAGUE"
+        ]
+      }
+    ]
+  },
+  {
+    "KeyName": "THE DOMINICAN REPUBLIC",
+    "Names": [
+      "THE DOMINICAN REPUBLIC",
+      "DOMINICAN REPUBLIC"
+    ],
+    "Localities": [
+      {
+        "KeyName": "SANTO DOMINGO",
+        "Names": [
+          "SANTO DOMINGO"
+        ]
+      }
+    ]
+  },
+  {
+    "KeyName": "THE REPUBLIC OF THE GAMBIA",
+    "Names": [
+      "THE REPUBLIC OF THE GAMBIA",
+      "REPUBLIC OF THE GAMBIA",
+      "THE GAMBIA",
+      "GAMBIA"
+    ],
+    "Localities": [
+      {
+        "KeyName": "CITY OF BANJUL",
+        "Names": [
+          "CITY OF BANJUL",
+          "BANJUL"
+        ]
+      }
+    ]
+  },
+  {
+    "KeyName": "HONG KONG",
+    "Names": [
+      "HONG KONG",
+      "THE HONG KONG SPECIAL ADMINISTRATIVE REGION OF THE PEOPLE'S REPUBLIC OF CHINA",
+      "THE PEOPLE'S REPUBLIC OF CHINA, HONG KONG SPECIAL ADMINISTRATIVE REGION",
+      "CHINA, HONG KONG SPECIAL ADMINISTRATIVE REGION",
+      "HKSAR"
+    ],
+    "Localities": [
+      {
+        "KeyName": "HONG KONG",
+        "Names": [
+          "HONG KONG"
+        ]
+      }
+    ]
+  },
+  {
+    "KeyName": "REPUBLIC OF CÔTE D'IVOIRE",
+    "Names": [
+      "REPUBLIC OF CÔTE D'IVOIRE",
+      "REPUBLIC OF COTE D'IVOIRE",
+      "CÔTE D'IVOIRE",
+      "COTE D'IVOIRE",
+      "THE IVORY COAST",
+      "IVORY COAST"
+    ],
+    "Localities": [
+      {
+        "KeyName": "YAMOUSSOUKRO",
+        "Names": [
+          "YAMOUSSOUKRO"
+        ]
+      }
+    ]
+  },
+  {
+    "KeyName": "THE DEMOCRATIC PEOPLE'S REPUBLIC OF KOREA",
+    "Names": [
+      "THE DEMOCRATIC PEOPLE'S REPUBLIC OF KOREA",
+      "DEMOCRATIC PEOPLE'S REPUBLIC OF KOREA",
+      "NORTH KOREA"
+    ],
+    "Localities": [
+      {
+        "KeyName": "PYONGYANG",
+        "Names": [
+          "PYONGYANG"
+        ]
+      }
+    ]
+  },
+  {
+    "KeyName": "THE LAO PEOPLE'S DEMOCRATIC REPUBLIC",
+    "Names": [
+      "THE LAO PEOPLE'S DEMOCRATIC REPUBLIC",
+      "LAO PEOPLE'S DEMOCRATIC REPUBLIC",
+      "LAOS"
+    ],
+    "Localities": [
+      {
+        "KeyName": "VIENTIANE",
+        "Names": [
+          "VIENTIANE"
+        ]
+      }
+    ]
+  },
+  {
+    "KeyName": "MACAO",
+    "Names": [
+      "MACAO",
+      "MACAO SPECIAL ADMINISTRATIVE REGION OF THE PEOPLE'S REPUBLIC OF CHINA",
+      "THE PEOPLE'S REPUBLIC OF CHINA, MACAO SPECIAL ADMINISTRATIVE REGION",
+      "CHINA, MACAO SPECIAL ADMINISTRATIVE REGION",
+      "MACAU",
+      "MSAR"
+    ],
+    "Localities": [
+      {
+        "KeyName": "MACAO",
+        "Names": [
+          "MACAO"
+        ]
+      }
+    ]
+  },
+  {
+    "KeyName": "THE NETHERLANDS",
+    "Names": [
+      "THE NETHERLANDS",
+      "NETHERLANDS",
+      "HOLLAND"
+    ],
+    "Localities": [
+      {
+        "KeyName": "AMSTERDAM",
+        "Names": [
+          "AMSTERDAM"
+        ]
+      }
+    ]
+  },
+  {
+    "KeyName": "THE PEOPLE'S REPUBLIC OF CHINA",
+    "Names": [
+      "THE PEOPLE'S REPUBLIC OF CHINA",
+      "PEOPLE'S REPUBLIC OF CHINA",
+      "CHINA",
+      "PRC"
+    ],
+    "Localities": [
+      {
+        "KeyName": "BEIJING",
+        "Names": [
+          "BEIJING",
+          "PEKING"
+        ]
+      }
+    ]
+  },
+  {
+    "KeyName": "THE REPUBLIC OF KOREA",
+    "Names": [
+      "THE REPUBLIC OF KOREA",
+      "REPUBLIC OF KOREA",
+      "SOUTH KOREA"
+    ],
+    "Localities": [
+      {
+        "KeyName": "SEOUL",
+        "Names": [
+          "SEOUL"
+        ]
+      }
+    ]
+  },
+  {
+    "KeyName": "THE REPUBLIC OF MALDIVES",
+    "Names": [
+      "THE REPUBLIC OF MALDIVES",
+      "REPUBLIC OF MALDIVES",
+      "THE MALDIVES",
+      "MALDIVES"
+    ],
+    "Localities": [
+      {
+        "KeyName": "MALÉ",
+        "Names": [
+          "MALÉ",
+          "MALE"
+        ]
+      }
+    ]
+  },
+  {
+    "KeyName": "THE REPUBLIC OF THE MARSHALL ISLANDS",
+    "Names": [
+      "THE REPUBLIC OF THE MARSHALL ISLANDS",
+      "REPUBLIC OF THE MARSHALL ISLANDS",
+      "THE MARSHALL ISLANDS",
+      "MARSHALL ISLANDS"
+    ],
+    "Localities": [
+      {
+        "KeyName": "MAJURO",
+        "Names": [
+          "MAJURO"
+        ]
+      }
+    ]
+  },
+  {
+    "KeyName": "THE REPUBLIC OF THE UNION OF MYANMAR",
+    "Names": [
+      "THE REPUBLIC OF THE UNION OF MYANMAR",
+      "REPUBLIC OF THE UNION OF MYANMAR",
+      "MYANMAR",
+      "BURMA"
+    ],
+    "Localities": [
+      {
+        "KeyName": "NAYPYIDAW",
+        "Names": [
+          "NAYPYIDAW"
+        ]
+      }
+    ]
+  },
+  {
+    "KeyName": "THE REPUBLIC OF THE PHILIPPINES",
+    "Names": [
+      "THE REPUBLIC OF THE PHILIPPINES",
+      "REPUBLIC OF THE PHILIPPINES",
+      "THE PHILIPPINES",
+      "PHILIPPINES"
+    ],
+    "Localities": [
+      {
+        "KeyName": "CITY OF MANILA",
+        "Names": [
+          "CITY OF MANILA",
+          "MANILA"
+        ]
+      }
+    ]
+  },
+  {
+    "KeyName": "THE RUSSIAN FEDERATION",
+    "Names": [
+      "THE RUSSIAN FEDERATION",
+      "RUSSIAN FEDERATION",
+      "RUSSIA"
+    ],
+    "Localities": [
+      {
+        "KeyName": "MOSCOW",
+        "Names": [
+          "MOSCOW",
+          "MOSKWA",
+          "MOSKVA"
+        ]
+      }
+    ]
+  },
+  {
+    "KeyName": "THE SOLOMON ISLANDS",
+    "Names": [
+      "THE SOLOMON ISLANDS",
+      "SOLOMON ISLANDS"
+    ],
+    "Localities": [
+      {
+        "KeyName": "HONIARA",
+        "Names": [
+          "HONIARA"
+        ]
+      }
+    ]
+  },
+  {
+    "KeyName": "THE REPUBLIC OF CHINA",
+    "Names": [
+      "THE REPUBLIC OF CHINA",
+      "REPUBLIC OF CHINA",
+      "TAIWAN",
+      "ROC"
+    ],
+    "Localities": [
+      {
+        "KeyName": "TAIPEI",
+        "Names": [
+          "TAIPEI"
+        ]
+      }
+    ]
+  },
+  {
+    "KeyName": "THE UNITED ARAB EMIRATES",
+    "Names": [
+      "THE UNITED ARAB EMIRATES",
+      "UNITED ARAB EMIRATES",
+      "THE EMIRATES",
+      "EMIRATES"
+    ],
+    "Localities": [
+      {
+        "KeyName": "ABU DHABI",
+        "Names": [
+          "ABU DHABI"
+        ]
+      }
+    ]
+  },
+  {
+    "KeyName": "THE UNITED KINGDOM",
+    "Names": [
+      "THE UNITED KINGDOM",
+      "UNITED KINGDOM",
+      "THE UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND",
+      "UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND",
+      "GREAT BRITAIN"
+    ],
+    "Localities": [
+      {
+        "KeyName": "LONDON",
+        "Names": [
+          "LONDON"
+        ]
+      }
+    ]
+  },
+  {
+    "KeyName": "THE UNITED STATES",
+    "Names": [
+      "THE UNITED STATES",
+      "UNITED STATES",
+      "THE UNITED STATES OF AMERICA",
+      "UNITED STATES OF AMERICA",
+      "USA",
+      "US"
+    ],
+    "Localities": [
+      {
+        "KeyName": "WASHINGTON, D.C.",
+        "Names": [
+          "WASHINGTON, D.C.",
+          "WASHINGTON, DC"
+        ]
+      }
+    ]
+  }
+]

@@ -1,11 +1,10 @@
 using System.Collections.Generic;
 
-namespace LocationsNamesNormalizer.Models
+namespace LocationNameNormalizer.Models
 {
-    public class Country
+    public class Locality
     {
         public string KeyName { get; set; }
         public List<string> Names { get; set; }
-        public List<Locality> Localities { get; set; }
     }
 }

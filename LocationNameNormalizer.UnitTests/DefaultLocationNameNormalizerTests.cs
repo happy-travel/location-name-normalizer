@@ -1,4 +1,7 @@
+using System.Collections.Generic;
 using System.Linq;
+using LocationNameNormalizer.Models;
+using Moq;
 using Xunit;
 
 namespace LocationNameNormalizer.UnitTests
@@ -7,7 +10,74 @@ namespace LocationNameNormalizer.UnitTests
     {
         public DefaultLocationNameNormalizerTests()
         {
-            _defaultLocationNamesSelector = new DefaultLocationNameNormalizer(new FileLocationNameRetriever());
+            var locationNameRetrieverMock = new Mock<ILocationNameRetriever>();
+            locationNameRetrieverMock.Setup(m => m.RetrieveCountries()).Returns(new List<Country>
+            {
+                new Country
+                {
+                    KeyName = "THE UNITED KINGDOM",
+                    Names = new List<string>
+                    {
+                        "THE UNITED KINGDOM",
+                        "UNITED KINGDOM",
+                        "THE UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND",
+                        "UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND",
+                        "GREAT BRITAIN"
+                    },
+                    Localities = new List<Locality>
+                    {
+                        {
+                            new Locality
+                            {
+                                KeyName = "LONDON",
+                                Names = new List<string> {"LONDON"}
+                            }
+                        }
+                    }
+                },
+                new Country
+                {
+                    KeyName = "THE RUSSIAN FEDERATION",
+                    Names = new List<string>
+                    {
+                        "THE RUSSIAN FEDERATION",
+                        "RUSSIAN FEDERATION",
+                        "RUSSIA"
+                    },
+                    Localities = new List<Locality>
+                    {
+                        new Locality
+                        {
+                            KeyName = "MOSCOW",
+                            Names = new List<string>
+                            {
+                                "MOSCOW",
+                                "MOSKWA",
+                                "MOSKVA"
+                            }
+                        }
+                    }
+                },
+                new Country
+                {
+                    KeyName = "THE CZECH REPUBLIC",
+                    Names = new List<string>
+                    {
+                        "THE CZECH REPUBLIC",
+                        "CZECH REPUBLIC",
+                        "CZECHIA"
+                    },
+                    Localities = new List<Locality>
+                    {
+                        new Locality
+                        {
+                            KeyName = "PRAGUE",
+                            Names = new List<string> {"PRAGUE"}
+                        }
+                    }
+                }
+            });
+            _defaultLocationNamesSelector = new DefaultLocationNameNormalizer(locationNameRetrieverMock.Object);
             ((DefaultLocationNameNormalizer) _defaultLocationNamesSelector).Init();
         }
 
@@ -56,18 +126,19 @@ namespace LocationNameNormalizer.UnitTests
             Assert.True(countriesByKeyName.SequenceEqual(countriesByNotKeyName));
         }
 
-        
+
         [Fact]
         public void All_locality_names_should_be_returned()
         {
-            var localityNamesByKeyName= _defaultLocationNamesSelector.GetLocalityNames("Russia", "Moscow");
+            var localityNamesByKeyName = _defaultLocationNamesSelector.GetLocalityNames("Russia", "Moscow");
             var localityNamesByNotKeyName = _defaultLocationNamesSelector.GetLocalityNames("Russian federation", "Moskwa");
-            
+
             Assert.Contains("Moscow", localityNamesByKeyName);
             Assert.Contains("Moskwa", localityNamesByKeyName);
-            Assert.True( localityNamesByKeyName.SequenceEqual(localityNamesByNotKeyName));
+            Assert.True(localityNamesByKeyName.SequenceEqual(localityNamesByNotKeyName));
         }
-        
+
+
         private readonly ILocationNameNormalizer _defaultLocationNamesSelector;
     }
 }

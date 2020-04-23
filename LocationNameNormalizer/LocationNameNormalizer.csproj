@@ -9,7 +9,7 @@
         <Version>1.2.0</Version>
         <PackageReleaseNotes>Added parentheses in normalization.</PackageReleaseNotes>
         <Description>Location name normalizer</Description>
-        <PackageVersion>1.1</PackageVersion>
+        <PackageVersion>1.2.0</PackageVersion>
         <PackageProjectUrl>https://github.com/happy-travel/location-name-normalizer</PackageProjectUrl>
         <RepositoryURL>https://github.com/happy-travel/location-name-normalizer</RepositoryURL>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>

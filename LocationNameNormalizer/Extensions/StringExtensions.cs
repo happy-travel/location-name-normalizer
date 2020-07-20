@@ -18,6 +18,8 @@ namespace LocationNameNormalizer.Extensions
                 .ToHtmlDecoded()
                 .ToStringWithoutHtmlTags()
                 .Replace("&", "and")
+                .ToStringWithoutHyphens()
+                .ToStringWithoutMultipleWhitespaces()
                 .ToStringWithoutSpecialCharacters()
                 .ToTitleCase();
         }
@@ -55,7 +57,15 @@ namespace LocationNameNormalizer.Extensions
             => Regex.Replace(value, SpecialCharactersProcessingPattern, "", RegexOptions.Compiled);
 
 
+        internal static string ToStringWithoutHyphens(this string value) => value.Replace("-", " ");
+
+
+        internal static string ToStringWithoutMultipleWhitespaces(this string value)
+            => Regex.Replace(value, MultipleSpacesProcessingPattern, " ", RegexOptions.Compiled);
+
+
         private const string DefaultCultureName = "en-US";
-        private const string SpecialCharactersProcessingPattern = @"[^\p{L}0-9_.(); ,-]+";
+        private const string SpecialCharactersProcessingPattern = @"[^\p{L}0-9_.(); ,]+";
+        private const string MultipleSpacesProcessingPattern = @"\s+";
     }
 }

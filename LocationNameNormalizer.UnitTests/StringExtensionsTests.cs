@@ -51,5 +51,32 @@ namespace LocationNameNormalizer.UnitTests
             var normalizedName = notNormalizedName.ToNormalizedName();
             Assert.True(normalizedName == "Վենետիկ, Իտալիա");
         }
+
+
+        [Fact]
+        public void Hyphens_must_be_replaced_with_space()
+        {
+            string notNormalizedName = "Marina Residences-Palm Jumeriah Apartments";
+            var normalizedName = notNormalizedName.ToNormalizedName();
+            Assert.True(normalizedName == "Marina Residences Palm Jumeriah Apartments");
+        }
+
+
+        [Fact]
+        public void Multiple_spaces_must_be_replaced_with_one()
+        {
+            string notNormalizedName = "Marina Residences      Palm Jumeriah Apartments";
+            var normalizedName = notNormalizedName.ToNormalizedName();
+            Assert.True(normalizedName == "Marina Residences Palm Jumeriah Apartments");
+        }
+
+
+        [Fact]
+        public void Hyphens_replacement_must_work_before_multiple_spaces_replacement()
+        {
+            string notNormalizedName = "Marina Residences - Palm Jumeriah Apartments";
+            var normalizedName = notNormalizedName.ToNormalizedName();
+            Assert.True(normalizedName == "Marina Residences Palm Jumeriah Apartments");
+        }
     }
 }

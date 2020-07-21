@@ -17,10 +17,10 @@ namespace LocationNameNormalizer.Extensions
             return target.Trim()
                 .ToHtmlDecoded()
                 .ToStringWithoutHtmlTags()
-                .Replace("&", "and")
-                .ToStringWithoutHyphens()
-                .ToStringWithoutMultipleWhitespaces()
+                .Replace("&", " and ")
                 .ToStringWithoutSpecialCharacters()
+                .ToStringWithoutMultipleWhitespaces()
+                .ToStringWithoutSpacesBeforePunctuations()
                 .ToTitleCase();
         }
 
@@ -54,18 +54,20 @@ namespace LocationNameNormalizer.Extensions
 
 
         internal static string ToStringWithoutSpecialCharacters(this string value)
-            => Regex.Replace(value, SpecialCharactersProcessingPattern, "", RegexOptions.Compiled);
-
-
-        internal static string ToStringWithoutHyphens(this string value) => value.Replace("-", " ");
+            => Regex.Replace(value, SpecialCharactersProcessingPattern, " ", RegexOptions.Compiled);
 
 
         internal static string ToStringWithoutMultipleWhitespaces(this string value)
             => Regex.Replace(value, MultipleSpacesProcessingPattern, " ", RegexOptions.Compiled);
 
 
+        internal static string ToStringWithoutSpacesBeforePunctuations(this string value)
+            => Regex.Replace(value, SpacesBeforePunctuationsProcessingPattern, "", RegexOptions.Compiled);
+
+
         private const string DefaultCultureName = "en-US";
-        private const string SpecialCharactersProcessingPattern = @"[^\p{L}0-9_.(); ,]+";
+        private const string SpecialCharactersProcessingPattern = @"[^\p{L}0-9_.(); ,'ʼ]+";
         private const string MultipleSpacesProcessingPattern = @"\s+";
+        private const string SpacesBeforePunctuationsProcessingPattern = @"\s+(?=[_.();,'ʼ])";
     }
 }

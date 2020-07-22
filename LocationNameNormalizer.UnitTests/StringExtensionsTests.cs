@@ -29,7 +29,7 @@ namespace LocationNameNormalizer.UnitTests
         [Fact]
         public void With_html_string_should_be_normalized()
         {
-            string notNormalizedName = "&lt;b&gt;PIAZZALE ROMA<,!@?©¶' VENICE, ITALY&lt;/b&gt;";
+            string notNormalizedName = "&lt;b&gt;PIAZZALE ROMA<,!@?©¶ VENICE, ITALY&lt;/b&gt;";
             var normalizedName = notNormalizedName.ToNormalizedName();
 
             Assert.True(normalizedName == "Piazzale Roma, Venice, Italy");
@@ -50,6 +50,23 @@ namespace LocationNameNormalizer.UnitTests
             string notNormalizedName = "ՎԵՆԵՏԻԿ, ԻՏԱԼԻԱ";
             var normalizedName = notNormalizedName.ToNormalizedName();
             Assert.True(normalizedName == "Վենետիկ, Իտալիա");
+        }
+
+        [Fact]
+        public void Multiple_spaces_must_be_replaced_with_one()
+        {
+            string notNormalizedName = "Marina Residences      Palm Jumeriah Apartments";
+            var normalizedName = notNormalizedName.ToNormalizedName();
+            Assert.True(normalizedName == "Marina Residences Palm Jumeriah Apartments");
+        }
+
+
+        [Fact]
+        public void Spaces_before_punctuations_should_be_removed()
+        {
+            string notNormalizedName = "Marina Residences Palm , Jumeriah Apartments";
+            var normalizedName = notNormalizedName.ToNormalizedName();
+            Assert.True(normalizedName == "Marina Residences Palm, Jumeriah Apartments");
         }
     }
 }

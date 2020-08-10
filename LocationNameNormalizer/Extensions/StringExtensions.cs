@@ -9,7 +9,7 @@ namespace LocationNameNormalizer.Extensions
 {
     public static class StringExtensions
     {
-        public static string ToNormalizedName(this string target, CultureInfo cultureInfo = null)
+        public static string ToNormalizedName(this string target, CultureInfo cultureInfo = default)
         {
             if (string.IsNullOrEmpty(target))
                 return string.Empty;
@@ -25,12 +25,12 @@ namespace LocationNameNormalizer.Extensions
         }
 
 
-        internal static string ToTitleCase(this string value, CultureInfo cultureInfo = null)
-            => ToTitleCase(new List<string>(1) {value}, cultureInfo)
+        internal static string ToTitleCase(this string value, CultureInfo cultureInfo = default)
+            => ToTitleCase(new List<string>(1) { value }, cultureInfo)
                 .SingleOrDefault();
 
 
-        internal static List<string> ToTitleCase(this List<string> values, CultureInfo cultureInfo = null)
+        internal static List<string> ToTitleCase(this List<string> values, CultureInfo cultureInfo = default)
         {
             var culture = cultureInfo ?? new CultureInfo(DefaultCultureName);
             var textInfo = culture.TextInfo;

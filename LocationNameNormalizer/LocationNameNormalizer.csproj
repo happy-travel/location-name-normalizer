@@ -6,10 +6,10 @@
         <Authors>Hasmik Harutyunyan, Oleg Konovalov, Kirill Taran</Authors>
         <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <Version>1.2.1</Version>
-        <PackageReleaseNotes>Added functionality for replace hyphens with space and replace multiple spaces with one.</PackageReleaseNotes>
+        <Version>1.3</Version>
+        <PackageReleaseNotes>Added support for passing culture by parameter in name normalization.</PackageReleaseNotes>
         <Description>Location name normalizer</Description>
-        <PackageVersion>1.2.1</PackageVersion>
+        <PackageVersion>1.3</PackageVersion>
         <PackageProjectUrl>https://github.com/happy-travel/location-name-normalizer</PackageProjectUrl>
         <RepositoryURL>https://github.com/happy-travel/location-name-normalizer</RepositoryURL>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>

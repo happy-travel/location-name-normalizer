@@ -9,7 +9,7 @@ namespace LocationNameNormalizer.Extensions
 {
     public static class StringExtensions
     {
-        public static string ToNormalizedName(this string target)
+        public static string ToNormalizedName(this string target, CultureInfo cultureInfo = default)
         {
             if (string.IsNullOrEmpty(target))
                 return string.Empty;
@@ -21,21 +21,22 @@ namespace LocationNameNormalizer.Extensions
                 .ToStringWithoutSpecialCharacters()
                 .ToStringWithoutMultipleWhitespaces()
                 .ToStringWithoutSpacesBeforePunctuations()
-                .ToTitleCase();
+                .ToTitleCase(cultureInfo);
         }
 
 
-        internal static string ToTitleCase(this string value)
-            => ToTitleCase(new List<string>(1) {value})
+        internal static string ToTitleCase(this string value, CultureInfo cultureInfo = default)
+            => ToTitleCase(new List<string>(1) { value }, cultureInfo)
                 .SingleOrDefault();
 
 
-        internal static List<string> ToTitleCase(this List<string> values)
+        internal static List<string> ToTitleCase(this List<string> values, CultureInfo cultureInfo = default)
         {
-            var textInfo = new CultureInfo(DefaultCultureName).TextInfo;
+            var culture = cultureInfo ?? new CultureInfo(DefaultCultureName);
+            var textInfo = culture.TextInfo;
 
             //ToLower() must be used, otherwise we get uppercase 
-            return values.Select(v => textInfo.ToTitleCase(v.ToLower())).ToList();
+            return values.Select(v => textInfo.ToTitleCase(v.ToLower(culture))).ToList();
         }
 
 
@@ -54,15 +55,15 @@ namespace LocationNameNormalizer.Extensions
 
 
         internal static string ToStringWithoutSpecialCharacters(this string value)
-            => Regex.Replace(value, SpecialCharactersProcessingPattern, " ", RegexOptions.Compiled);
+            => Regex.Replace(value, SpecialCharactersProcessingPattern, " ", RegexOptions.Compiled | RegexOptions.CultureInvariant);
 
 
         internal static string ToStringWithoutMultipleWhitespaces(this string value)
-            => Regex.Replace(value, MultipleSpacesProcessingPattern, " ", RegexOptions.Compiled);
+            => Regex.Replace(value, MultipleSpacesProcessingPattern, " ", RegexOptions.Compiled | RegexOptions.CultureInvariant);
 
 
         internal static string ToStringWithoutSpacesBeforePunctuations(this string value)
-            => Regex.Replace(value, SpacesBeforePunctuationsProcessingPattern, "", RegexOptions.Compiled);
+            => Regex.Replace(value, SpacesBeforePunctuationsProcessingPattern, "", RegexOptions.Compiled | RegexOptions.CultureInvariant);
 
 
         private const string DefaultCultureName = "en-US";

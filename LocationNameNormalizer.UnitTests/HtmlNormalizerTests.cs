@@ -89,6 +89,7 @@ namespace LocationNameNormalizer.UnitTests
     Khalifa Medical City and Al Nahyan Stadium.</h1>";
 
             var result = html.NormalizeHtml();
+            
             Assert.True(result == outerHtml);
         }
         
@@ -104,6 +105,7 @@ namespace LocationNameNormalizer.UnitTests
     Khalifa Medical City and Al Nahyan Stadium.</p>";
 
             var result = html.NormalizeHtml();
+            
             Assert.True(result == outerHtml);
         }
     }

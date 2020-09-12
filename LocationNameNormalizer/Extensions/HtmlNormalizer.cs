@@ -26,11 +26,11 @@ namespace LocationNameNormalizer.Extensions
         {
             HtmlDocument.DisableBehaviorTagP = false;
             var htmlDocument = new HtmlDocument();
-
+            htmlDocument.OptionAutoCloseOnEnd = true;
             htmlDocument.LoadHtml(target);
 
             htmlDocument.RemoveAttributes()
-                .ProcessDivTags()
+                .ReplaceDivTagsWithBr()
                 .RemoveNotNeededTags()
                 .ReplaceTags()
                 .ProcessH1Tags()
@@ -68,22 +68,7 @@ namespace LocationNameNormalizer.Extensions
         }
 
 
-        private static HtmlDocument RemoveNotNeededTags(this HtmlDocument htmlDocument)
-        {
-            var nodesToRemove = new List<HtmlNode>();
-
-            foreach (var node in htmlDocument.DocumentNode.Descendants())
-                if (!_acceptableTags.Contains(node.Name) && !_tagsToReplace.Keys.Contains(node.Name))
-                    nodesToRemove.Add(node);
-
-            foreach (var node in nodesToRemove)
-                node.ParentNode.RemoveChild(node, true);
-
-            return htmlDocument;
-        }
-
-
-        private static HtmlDocument ProcessDivTags(this HtmlDocument htmlDocument)
+        private static HtmlDocument ReplaceDivTagsWithBr(this HtmlDocument htmlDocument)
         {
             var divNodes = htmlDocument.DocumentNode.SelectNodes("//div");
             if (divNodes == null)
@@ -96,6 +81,21 @@ namespace LocationNameNormalizer.Extensions
                 node.AppendChild(brNode);
                 node.ParentNode.RemoveChild(node, true);
             }
+
+            return htmlDocument;
+        }
+
+
+        private static HtmlDocument RemoveNotNeededTags(this HtmlDocument htmlDocument)
+        {
+            var nodesToRemove = new List<HtmlNode>();
+
+            foreach (var node in htmlDocument.DocumentNode.Descendants())
+                if (!_acceptableTags.Contains(node.Name) && !_tagsToReplace.Keys.Contains(node.Name))
+                    nodesToRemove.Add(node);
+
+            foreach (var node in nodesToRemove)
+                node.ParentNode.RemoveChild(node, true);
 
             return htmlDocument;
         }

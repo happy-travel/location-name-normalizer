@@ -38,7 +38,8 @@ namespace LocationNameNormalizer.UnitTests
 
             Assert.True(result == outerHtml);
         }
-        
+
+
         [Fact]
         public void Html_normalization_should_remove_not_needed_tags()
         {
@@ -54,7 +55,8 @@ namespace LocationNameNormalizer.UnitTests
 
             Assert.True(result == outerHtml);
         }
-        
+
+
         [Fact]
         public void Html_normalization_should_replace_tags()
         {
@@ -70,7 +72,8 @@ namespace LocationNameNormalizer.UnitTests
 
             Assert.True(result == outerHtml);
         }
-        
+
+
         [Fact]
         public void Html_normalization_should_process_h1_tags()
         {
@@ -89,14 +92,16 @@ namespace LocationNameNormalizer.UnitTests
     Khalifa Medical City and Al Nahyan Stadium.</h1>";
 
             var result = html.NormalizeHtml();
-            
+
             Assert.True(result == outerHtml);
         }
-        
+
+
         [Fact]
         public void Html_normalization_should_process_br_tags()
         {
-            var html = @"<p><br><ol><br>Property Location<br></ol><br><br><br> With a stay at Marriott Hotel Downtown, Abu Dhabi, you''ll be centrally located in Abu
+            var html =
+                @"<p><br><ol><br>Property Location<br></ol><br><br><br> With a stay at Marriott Hotel Downtown, Abu Dhabi, you''ll be centrally located in Abu
     Dhabi, steps from Al Wahda Mall and Caracal Shooting Club. This 5-star hotel is within close proximity of Shaikh
     Khalifa Medical City and Al Nahyan Stadium.<br /><br /><br /></p>";
 
@@ -105,7 +110,26 @@ namespace LocationNameNormalizer.UnitTests
     Khalifa Medical City and Al Nahyan Stadium.</p>";
 
             var result = html.NormalizeHtml();
-            
+
+            Assert.True(result == outerHtml);
+        }
+
+
+        [Fact]
+        public void Html_normalization_should_close_not_closed_tags()
+        {
+            var html =
+                @"<p><br><ul><br>Property Location With a stay at Marriott Hotel Downtown, Abu Dhabi, you''ll be centrally located in Abu
+    Dhabi, steps from Al Wahda Mall and Caracal Shooting Club. This 5-star hotel is within close proximity of Shaikh
+    Khalifa Medical City and Al Nahyan Stadium.";
+
+            var outerHtml =
+                @"<p><ul>Property Location With a stay at Marriott Hotel Downtown, Abu Dhabi, you''ll be centrally located in Abu
+    Dhabi, steps from Al Wahda Mall and Caracal Shooting Club. This 5-star hotel is within close proximity of Shaikh
+    Khalifa Medical City and Al Nahyan Stadium.</ul>";
+
+            var result = html.NormalizeHtml();
+
             Assert.True(result == outerHtml);
         }
     }

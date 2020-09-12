@@ -17,7 +17,7 @@ namespace LocationNameNormalizer.UnitTests
     Dhabi, steps from Al Wahda Mall and Caracal Shooting Club. This 5-star hotel is within close proximity of Shaikh
     Khalifa Medical City and Al Nahyan Stadium.</p>";
 
-            var result = html.NormalizeHtml();
+            var result = html.NormalizeInlineHtml();
 
             Assert.True(result == outerHtml);
         }
@@ -34,7 +34,7 @@ namespace LocationNameNormalizer.UnitTests
     Dhabi, steps from <br>Al Wahda Mall and Caracal Shooting Club.<br> This 5-star hotel is within close proximity of Shaikh
     Khalifa Medical City and Al Nahyan Stadium.</p>";
 
-            var result = html.NormalizeHtml();
+            var result = html.NormalizeInlineHtml();
 
             Assert.True(result == outerHtml);
         }
@@ -51,7 +51,7 @@ namespace LocationNameNormalizer.UnitTests
     Dhabi, steps from Al Wahda Mall and Caracal Shooting Club. This 5-star hotel is within close proximity of Shaikh
     Khalifa Medical City and Al Nahyan Stadium.</p>";
 
-            var result = html.NormalizeHtml();
+            var result = html.NormalizeInlineHtml();
 
             Assert.True(result == outerHtml);
         }
@@ -68,7 +68,7 @@ namespace LocationNameNormalizer.UnitTests
     Dhabi, steps from <b>Al Wahda Mall and Caracal Shooting Club.</b> This 5-star hotel is within close proximity of Shaikh
     Khalifa Medical City and Al Nahyan Stadium.</p>";
 
-            var result = html.NormalizeHtml();
+            var result = html.NormalizeInlineHtml();
 
             Assert.True(result == outerHtml);
         }
@@ -91,7 +91,7 @@ namespace LocationNameNormalizer.UnitTests
     Dhabi, steps from Al Wahda Mall and Caracal Shooting Club. This 5-star hotel is within close proximity of Shaikh
     Khalifa Medical City and Al Nahyan Stadium.</h1>";
 
-            var result = html.NormalizeHtml();
+            var result = html.NormalizeInlineHtml();
 
             Assert.True(result == outerHtml);
         }
@@ -109,7 +109,7 @@ namespace LocationNameNormalizer.UnitTests
     Dhabi, steps from Al Wahda Mall and Caracal Shooting Club. This 5-star hotel is within close proximity of Shaikh
     Khalifa Medical City and Al Nahyan Stadium.</p>";
 
-            var result = html.NormalizeHtml();
+            var result = html.NormalizeInlineHtml();
 
             Assert.True(result == outerHtml);
         }
@@ -128,7 +128,7 @@ namespace LocationNameNormalizer.UnitTests
     Dhabi, steps from Al Wahda Mall and Caracal Shooting Club. This 5-star hotel is within close proximity of Shaikh
     Khalifa Medical City and Al Nahyan Stadium.</ul>";
 
-            var result = html.NormalizeHtml();
+            var result = html.NormalizeInlineHtml();
 
             Assert.True(result == outerHtml);
         }

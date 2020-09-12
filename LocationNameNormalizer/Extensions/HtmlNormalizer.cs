@@ -22,7 +22,7 @@ namespace LocationNameNormalizer.Extensions
         a. Multiple <br> tags are prohibited/
         After <h1> <ul> <p> <br> cannot go
         b. <br/> <br></br> tags should have one standard writening*/
-        public static string NormalizeHtml(this string target)
+        public static string NormalizeInlineHtml(this string target)
         {
             HtmlDocument.DisableBehaviorTagP = false;
             var htmlDocument = new HtmlDocument();

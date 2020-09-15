@@ -6,10 +6,10 @@
         <Authors>Hasmik Harutyunyan, Oleg Konovalov, Kirill Taran</Authors>
         <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <Version>1.4</Version>
-        <PackageReleaseNotes>Added html normalization.</PackageReleaseNotes>
+        <Version>1.4.1</Version>
+        <PackageReleaseNotes>Fixed exceptions with empty tags in HTML normalization.</PackageReleaseNotes>
         <Description>Location name normalizer</Description>
-        <PackageVersion>1.4</PackageVersion>
+        <PackageVersion>1.4.1</PackageVersion>
         <PackageProjectUrl>https://github.com/happy-travel/location-name-normalizer</PackageProjectUrl>
         <RepositoryURL>https://github.com/happy-travel/location-name-normalizer</RepositoryURL>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>

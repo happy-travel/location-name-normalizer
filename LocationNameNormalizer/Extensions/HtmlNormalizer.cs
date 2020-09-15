@@ -30,6 +30,7 @@ namespace LocationNameNormalizer.Extensions
             htmlDocument.LoadHtml(target);
 
             htmlDocument.RemoveAttributes()
+                .RemoveEmptyDivTags()
                 .ReplaceDivTagsWithBr()
                 .RemoveNotNeededTags()
                 .ReplaceTags()
@@ -67,6 +68,22 @@ namespace LocationNameNormalizer.Extensions
             return htmlDocument;
         }
 
+
+        private static HtmlDocument RemoveEmptyDivTags(this HtmlDocument htmlDocument)
+        {
+            var divNodes = htmlDocument.DocumentNode.SelectNodes("//div");
+            if (divNodes == null)
+                return htmlDocument;
+            
+            foreach (var node in divNodes)
+            {
+                if(string.IsNullOrWhiteSpace(node.InnerHtml))
+                    node.ParentNode.RemoveChild(node, false);
+            }
+
+            return htmlDocument;
+        }
+        
 
         private static HtmlDocument ReplaceDivTagsWithBr(this HtmlDocument htmlDocument)
         {

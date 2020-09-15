@@ -7,7 +7,7 @@ namespace LocationNameNormalizer.UnitTests
     public class HtmlNormalizerTests
     {
         [Fact]
-        public void Html_normalization_should_remove_attributes()
+        public void Should_remove_attributes()
         {
             var html = @"<p ar=""jkjl""><b>Property Location</b> <br />With a stay at Marriott Hotel Downtown, Abu Dhabi, you''ll be centrally located in Abu
     Dhabi, steps from Al Wahda Mall and Caracal Shooting Club. This 5-star hotel is within close proximity of Shaikh
@@ -24,7 +24,7 @@ namespace LocationNameNormalizer.UnitTests
 
 
         [Fact]
-        public void Html_normalization_should_replace_div_to_br()
+        public void Should_replace_div_to_br()
         {
             var html = @"<p><b>Property Location</b> <br />With a stay at Marriott Hotel Downtown, Abu Dhabi, you''ll be centrally located in Abu
     Dhabi, steps from <div>Al Wahda Mall and Caracal Shooting Club.</div> This 5-star hotel is within close proximity of Shaikh
@@ -41,7 +41,7 @@ namespace LocationNameNormalizer.UnitTests
 
 
         [Fact]
-        public void Html_normalization_should_remove_not_needed_tags()
+        public void Should_remove_not_needed_tags()
         {
             var html = @"<p><b>Property Location</b> <br />With a stay at Marriott Hotel Downtown, Abu Dhabi, you''ll be centrally located in Abu
     Dhabi, steps from <input>Al Wahda Mall and Caracal Shooting Club.</input> This 5-star hotel is within close proximity of Shaikh
@@ -58,7 +58,7 @@ namespace LocationNameNormalizer.UnitTests
 
 
         [Fact]
-        public void Html_normalization_should_replace_tags()
+        public void Should_replace_tags()
         {
             var html = @"<p><b>Property Location</b> <br />With a stay at Marriott Hotel Downtown, Abu Dhabi, you''ll be centrally located in Abu
     Dhabi, steps from <strong>Al Wahda Mall and Caracal Shooting Club.</strong> This 5-star hotel is within close proximity of Shaikh
@@ -75,7 +75,7 @@ namespace LocationNameNormalizer.UnitTests
 
 
         [Fact]
-        public void Html_normalization_should_process_h1_tags()
+        public void Should_process_h1_tags()
         {
             var html = @"<p><h1>Property <i>Location</i></h1> With a stay at Marriott Hotel Downtown, Abu Dhabi, you''ll be centrally located in Abu
     Dhabi, steps from Al Wahda Mall and Caracal Shooting Club. This 5-star hotel is within close proximity of Shaikh
@@ -98,7 +98,7 @@ namespace LocationNameNormalizer.UnitTests
 
 
         [Fact]
-        public void Html_normalization_should_process_br_tags()
+        public void Should_process_br_tags()
         {
             var html =
                 @"<p><br><ol><br>Property Location<br></ol><br><br><br> With a stay at Marriott Hotel Downtown, Abu Dhabi, you''ll be centrally located in Abu
@@ -116,7 +116,7 @@ namespace LocationNameNormalizer.UnitTests
 
 
         [Fact]
-        public void Html_normalization_should_close_not_closed_tags()
+        public void Should_close_not_closed_tags()
         {
             var html =
                 @"<p><br><ul><br>Property Location With a stay at Marriott Hotel Downtown, Abu Dhabi, you''ll be centrally located in Abu
@@ -131,6 +131,17 @@ namespace LocationNameNormalizer.UnitTests
             var result = html.NormalizeInlineHtml();
 
             Assert.True(result == outerHtml);
+        }
+
+
+        [Fact]
+        public void Should_remove_empty_div_tags()
+        {
+            var html = @"<html><body><p>Some text</p><div>   </div></html></body>";
+            
+            var result = html.NormalizeInlineHtml();
+
+            Assert.True(result == "<p>Some text</p>");   
         }
     }
 }

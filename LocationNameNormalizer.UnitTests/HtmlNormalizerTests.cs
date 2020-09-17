@@ -137,11 +137,11 @@ namespace LocationNameNormalizer.UnitTests
         [Fact]
         public void Should_remove_empty_div_tags()
         {
-            var html = @"<html><body><p>Some text</p><div>   </div></html></body>";
+            var html = @"<html><body><b>Some text</b><div>   </div><br>Text after br.</html></body>";
             
             var result = html.NormalizeInlineHtml();
 
-            Assert.True(result == "<p>Some text</p>");   
+            Assert.True(result == "<b>Some text</b><br>Text after br.");   
         }
     }
 }

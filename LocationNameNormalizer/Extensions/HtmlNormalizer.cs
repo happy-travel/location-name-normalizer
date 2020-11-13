@@ -21,7 +21,7 @@ namespace LocationNameNormalizer.Extensions
         5. <br> tag
         a. Multiple <br> tags are prohibited/
         After <h1> <ul> <p> <br> cannot go
-        b. <br/> <br></br> tags should have one standard writening*/
+        b. <br/> <br></br> tags should have one standard writing*/
         public static string NormalizeInlineHtml(this string target)
         {
             HtmlDocument.DisableBehaviorTagP = false;
@@ -55,12 +55,12 @@ namespace LocationNameNormalizer.Extensions
             var nodesToReplace = new List<HtmlNode>();
 
             foreach (var node in htmlDocument.DocumentNode.Descendants())
-                if (_tagsToReplace.Keys.Contains(node.Name))
+                if (TagsToReplace.Keys.Contains(node.Name))
                     nodesToReplace.Add(node);
 
             foreach (var node in nodesToReplace)
             {
-                var nodeToReplace = htmlDocument.CreateElement(_tagsToReplace[node.Name]);
+                var nodeToReplace = htmlDocument.CreateElement(TagsToReplace[node.Name]);
                 nodeToReplace.InnerHtml = node.InnerHtml;
                 node.ParentNode.ReplaceChild(nodeToReplace, node);
             }
@@ -106,7 +106,7 @@ namespace LocationNameNormalizer.Extensions
             var nodesToRemove = new List<HtmlNode>();
 
             foreach (var node in htmlDocument.DocumentNode.Descendants())
-                if (!_acceptableTags.Contains(node.Name) && !_tagsToReplace.Keys.Contains(node.Name))
+                if (!AcceptableTags.Contains(node.Name) && !TagsToReplace.Keys.Contains(node.Name))
                     nodesToRemove.Add(node);
 
             foreach (var node in nodesToRemove)
@@ -159,7 +159,7 @@ namespace LocationNameNormalizer.Extensions
                 node.Remove();
 
             var nodesToRemove = new List<HtmlNode>();
-            foreach (var node in htmlDocument.DocumentNode.Descendants().Where(d => _tagsNotCompatibleWithBr.Contains(d.Name)))
+            foreach (var node in htmlDocument.DocumentNode.Descendants().Where(d => TagsNotCompatibleWithBr.Contains(d.Name)))
             {
                 if (node.PreviousSibling?.Name == "br")
                     nodesToRemove.Add(node.PreviousSibling);
@@ -181,10 +181,9 @@ namespace LocationNameNormalizer.Extensions
         }
 
 
-        private static readonly string[] _tagsNotCompatibleWithBr = {"ul", "h1", "p"};
-        private static readonly string[] _acceptableTags = {"p", "b", "i", "ul", "li", "h1", "br", "#text"};
-
-        private static readonly Dictionary<string, string> _tagsToReplace = new Dictionary<string, string>
+        private static readonly string[] AcceptableTags = {"p", "b", "i", "ul", "li", "h1", "br", "#text"};
+        private static readonly string[] TagsNotCompatibleWithBr = {"ul", "h1", "p"};
+        private static readonly Dictionary<string, string> TagsToReplace = new Dictionary<string, string>
         {
             {"strong", "b"}, {"em", "i"}, {"ol", "ul"}, {"h2", "h1"}, {"h3", "h1"}, {"h4", "h1"}, {"h5", "h1"}, {"h6", "h1"}
         };

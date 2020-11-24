@@ -72,6 +72,8 @@
       "CZECH REPUBLIC",
       "CZECHIA"
     ],
+    "KeyCode": "CZ",
+    "Codes": [ "CZ", "C"],
     "Localities": [
       {
         "KeyName": "PRAGUE",
@@ -426,5 +428,125 @@
         ]
       }
     ]
+  },
+  {
+    "KeyName": "Italy",
+    "Names": ["Italy"],
+    "KeyCode": "IT",
+    "Codes": ["IT", "I"]
+  },
+  { "KeyName": "Spain",
+    "Names": ["Spain"],
+    "KeyCode": "ES",
+    "Codes": ["ES", "E"]
+  },
+  {
+    "KeyName": "France",
+    "Names": ["France"],
+    "KeyCode": "FR",
+    "Codes": ["FR", "F"]
+  },
+  {
+    "KeyName": "Hungary",
+    "Names": ["Hungary"],
+    "KeyCode": "HU",
+    "Codes": ["HU", "H"]
+  },
+  {
+    "KeyName": "Portugal",
+    "Names": ["Portugal"],
+    "KeyCode": "PT",
+    "Codes": ["PT", "P"]
+  },
+  {
+    "KeyName": "Belgium",
+    "Names": ["Belgium"],
+    "KeyCode": "BE",
+    "Codes": ["BE", "B"]
+  },
+  {
+    "KeyName": "Romania",
+    "Names": ["Romania"],
+    "KeyCode": "RO",
+    "Codes": ["RO", "R"]
+  },
+  {
+    "KeyName": "Morocco",
+    "Names": ["Morocco"],
+    "KeyCode": "MA",
+    "Codes": ["MA", "M"]
+  },
+  {
+    "KeyName": "Germany",
+    "Names": ["Germany"],
+    "KeyCode": "DE",
+    "Codes": ["DE", "D"
+    ]
+  },
+  {
+    "KeyName": "Lithuania",
+    "Names": ["Lithuania"],
+    "KeyCode": "LT",
+    "Codes": ["LT", "LI"]
+  },
+  {
+    "KeyName": "Austria",
+    "Names": ["Austria"],
+    "KeyCode": "AT",
+    "Codes": ["AT", "A"]
+  },
+  {
+    "KeyName": "Croatia",
+    "Names": ["Croatia"],
+    "KeyCode": "HR",
+    "Codes": ["HR", "CR"]
+  },
+  {
+    "KeyName": "Dominican Republic",
+    "Names": ["Dominican Republic"],
+    "KeyCode": "DO",
+    "Codes": ["DR", "DO"]
+  },
+  {
+    "KeyName": "Lebanon",
+    "Names": ["Lebanon"],
+    "KeyCode": "LB",
+    "Codes": ["LB", "LE"]
+  },
+  {
+    "KeyName": "Moldova",
+    "Names": ["Moldova"],
+    "KeyCode": "MD",
+    "Codes": ["MD", "ML"]
+  },
+  {
+    "KeyName": "Malta",
+    "Names": ["Malta"],
+    "KeyCode": "MT",
+    "Codes": ["MT", "MW"]
+  },
+  {
+    "KeyName": "Estonia",
+    "Names": ["Estonia"],
+    "KeyCode": "EE",
+    "Codes": ["EE", "ES"]
+  },
+  {
+    "KeyName": "Slovenia",
+    "Names": ["Slovenia"],
+    "KeyCode": "SI",
+    "Codes": ["SI", "SL"]
+  },
+  {
+    "KeyName": "Vietnam",
+    "Names": ["Vietnam"],
+    "KeyCode": "VN",
+    "Codes": ["VN", "VI"]
+  },
+  {
+    "KeyName": "Serbia",
+    "Names": ["Serbia"],
+    "KeyCode": "RS",
+    "Codes": ["RS", "YU"]
   }
 ]

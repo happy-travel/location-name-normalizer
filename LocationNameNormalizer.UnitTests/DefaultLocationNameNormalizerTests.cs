@@ -60,6 +60,8 @@ namespace LocationNameNormalizer.UnitTests
                 },
                 new Country
                 {
+                    KeyCode = "CZ",
+                    Codes = new List<string> {"CZ", "C"},
                     KeyName = "THE CZECH REPUBLIC",
                     Names = new List<string>
                     {
@@ -138,6 +140,20 @@ namespace LocationNameNormalizer.UnitTests
             Assert.True(localityNamesByKeyName.SequenceEqual(localityNamesByNotKeyName));
         }
 
+        [Fact]
+        public void Default_country_code_should_be_selected_right()
+        {
+            var defaultCountryCode = _defaultLocationNamesSelector.GetNormalizedCountryCode("The Czech Republic", "C");
+            Assert.True(defaultCountryCode == "CZ");
+        }
+
+        [Fact]
+        public void Not_existing_country_should_return_passed_code()
+        {
+            var defaultCountryCode = _defaultLocationNamesSelector.GetNormalizedCountryCode("Italy", "I");
+            Assert.True(defaultCountryCode == "I");
+        }
+        
 
         private readonly ILocationNameNormalizer _defaultLocationNamesSelector;
     }

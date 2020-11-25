@@ -44,6 +44,17 @@ namespace LocationNameNormalizer
             return node.Equals(default) ? normalizedName : node.Country.KeyName.ToTitleCase();
         }
 
+        public string GetNormalizedCountryCode(string countryName, string countryCode)
+        {
+            var normalizedCountryName = GetNormalizedCountryName(countryName);
+            
+            var node = GetCountryNode(normalizedCountryName);
+            if (node.Equals(default))
+                return countryCode;
+            
+            //TODO: Maybe depending on data will need to check for codes list.
+            return node.Country.KeyCode;
+        }
 
         public string GetNormalizedLocalityName(string countryName, string localityName)
         {

@@ -6,8 +6,8 @@
         <Authors>Hasmik Harutyunyan, Oleg Konovalov, Kirill Taran</Authors>
         <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <Version>1.6.1</Version>
-        <PackageReleaseNotes>Fixed bug when no localities in country provided.</PackageReleaseNotes>
+        <Version>1.6.2</Version>
+        <PackageReleaseNotes>Added missing country codes</PackageReleaseNotes>
         <Description>Location name normalizer</Description>
         <PackageProjectUrl>https://github.com/happy-travel/location-name-normalizer</PackageProjectUrl>
         <RepositoryURL>https://github.com/happy-travel/location-name-normalizer</RepositoryURL>

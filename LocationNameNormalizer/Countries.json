@@ -7,6 +7,8 @@
       "THE COMMONWEALTH OF THE BAHAMAS",
       "COMMONWEALTH OF THE BAHAMAS"
     ],
+    "KeyCode": "BS",
+    "Codes": ["BS"],
     "Localities": [
       {
         "KeyName": "NASSAU",
@@ -22,6 +24,8 @@
       "THE CAYMAN ISLANDS",
       "CAYMAN ISLANDS"
     ],
+    "KeyCode": "KY",
+    "Codes": ["KY"],
     "Localities": [
       {
         "KeyName": "GEORGE TOWN",
@@ -38,6 +42,8 @@
       "CENTRAL AFRICAN REPUBLIC",
       "CAR"
     ],
+    "KeyCode": "CF",
+    "Codes": ["CF"],
     "Localities": [
       {
         "KeyName": "BANGUI",
@@ -56,6 +62,8 @@
       "THE COMOROS",
       "COMOROS"
     ],
+    "KeyCode": "KM",
+    "Codes": ["KM"],
     "Localities": [
       {
         "KeyName": "MORONI",
@@ -89,6 +97,8 @@
       "THE DOMINICAN REPUBLIC",
       "DOMINICAN REPUBLIC"
     ],
+    "KeyCode": "DO",
+    "Codes": ["DO"],
     "Localities": [
       {
         "KeyName": "SANTO DOMINGO",
@@ -106,6 +116,8 @@
       "THE GAMBIA",
       "GAMBIA"
     ],
+    "KeyCode": "GM",
+    "Codes": ["GM"],
     "Localities": [
       {
         "KeyName": "CITY OF BANJUL",
@@ -125,6 +137,8 @@
       "CHINA, HONG KONG SPECIAL ADMINISTRATIVE REGION",
       "HKSAR"
     ],
+    "KeyCode": "HK",
+    "Codes": ["HK"],
     "Localities": [
       {
         "KeyName": "HONG KONG",
@@ -144,6 +158,8 @@
       "THE IVORY COAST",
       "IVORY COAST"
     ],
+    "KeyCode": "CI",
+    "Codes": ["CI"],
     "Localities": [
       {
         "KeyName": "YAMOUSSOUKRO",
@@ -160,6 +176,8 @@
       "DEMOCRATIC PEOPLE'S REPUBLIC OF KOREA",
       "NORTH KOREA"
     ],
+    "KeyCode": "KP",
+    "Codes": ["KP"],
     "Localities": [
       {
         "KeyName": "PYONGYANG",
@@ -176,6 +194,8 @@
       "LAO PEOPLE'S DEMOCRATIC REPUBLIC",
       "LAOS"
     ],
+    "KeyCode": "LA",
+    "Codes": ["LA"],
     "Localities": [
       {
         "KeyName": "VIENTIANE",
@@ -195,6 +215,8 @@
       "MACAU",
       "MSAR"
     ],
+    "KeyCode": "MO",
+    "Codes": ["MO"],
     "Localities": [
       {
         "KeyName": "MACAO",
@@ -211,6 +233,8 @@
       "NETHERLANDS",
       "HOLLAND"
     ],
+    "KeyCode": "NL",
+    "Codes": ["NL"],
     "Localities": [
       {
         "KeyName": "AMSTERDAM",
@@ -228,6 +252,8 @@
       "CHINA",
       "PRC"
     ],
+    "KeyCode": "CN",
+    "Codes": ["CN"],
     "Localities": [
       {
         "KeyName": "BEIJING",
@@ -245,6 +271,8 @@
       "REPUBLIC OF KOREA",
       "SOUTH KOREA"
     ],
+    "KeyCode": "KR",
+    "Codes": ["KR"],
     "Localities": [
       {
         "KeyName": "SEOUL",
@@ -262,6 +290,8 @@
       "THE MALDIVES",
       "MALDIVES"
     ],
+    "KeyCode": "MV",
+    "Codes": ["MV"],
     "Localities": [
       {
         "KeyName": "MALÉ",
@@ -280,6 +310,8 @@
       "THE MARSHALL ISLANDS",
       "MARSHALL ISLANDS"
     ],
+    "KeyCode": "MH",
+    "Codes": ["MH"],
     "Localities": [
       {
         "KeyName": "MAJURO",
@@ -297,6 +329,8 @@
       "MYANMAR",
       "BURMA"
     ],
+    "KeyCode": "MM",
+    "Codes": ["MM"],
     "Localities": [
       {
         "KeyName": "NAYPYIDAW",
@@ -314,6 +348,8 @@
       "THE PHILIPPINES",
       "PHILIPPINES"
     ],
+    "KeyCode": "PH",
+    "Codes": ["PH"],
     "Localities": [
       {
         "KeyName": "CITY OF MANILA",
@@ -331,6 +367,8 @@
       "RUSSIAN FEDERATION",
       "RUSSIA"
     ],
+    "KeyCode": "RU",
+    "Codes": ["RU"],
     "Localities": [
       {
         "KeyName": "MOSCOW",
@@ -348,6 +386,8 @@
       "THE SOLOMON ISLANDS",
       "SOLOMON ISLANDS"
     ],
+    "KeyCode": "SB",
+    "Codes": ["SB"],
     "Localities": [
       {
         "KeyName": "HONIARA",
@@ -365,6 +405,8 @@
       "TAIWAN",
       "ROC"
     ],
+    "KeyCode": "TW",
+    "Codes": ["TW"],
     "Localities": [
       {
         "KeyName": "TAIPEI",
@@ -382,6 +424,8 @@
       "THE EMIRATES",
       "EMIRATES"
     ],
+    "KeyCode": "AE",
+    "Codes": ["AE"],
     "Localities": [
       {
         "KeyName": "ABU DHABI",
@@ -400,6 +444,8 @@
       "UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND",
       "GREAT BRITAIN"
     ],
+    "KeyCode": "GB",
+    "Codes": ["GB"],
     "Localities": [
       {
         "KeyName": "LONDON",
@@ -419,6 +465,8 @@
       "USA",
       "US"
     ],
+    "KeyCode": "US",
+    "Codes": ["US"],
     "Localities": [
       {
         "KeyName": "WASHINGTON, D.C.",

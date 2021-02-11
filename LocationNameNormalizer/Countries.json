@@ -478,122 +478,122 @@
     ]
   },
   {
-    "KeyName": "Italy",
-    "Names": ["Italy"],
+    "KeyName": "ITALY",
+    "Names": ["ITALY"],
     "KeyCode": "IT",
     "Codes": ["IT", "I"]
   },
-  { "KeyName": "Spain",
-    "Names": ["Spain"],
+  { "KeyName": "SPAIN",
+    "Names": ["SPAIN"],
     "KeyCode": "ES",
     "Codes": ["ES", "E"]
   },
   {
-    "KeyName": "France",
-    "Names": ["France"],
+    "KeyName": "FRANCE",
+    "Names": ["FRANCE"],
     "KeyCode": "FR",
     "Codes": ["FR", "F"]
   },
   {
-    "KeyName": "Hungary",
-    "Names": ["Hungary"],
+    "KeyName": "HUNGARY",
+    "Names": ["HUNGARY"],
     "KeyCode": "HU",
     "Codes": ["HU", "H"]
   },
   {
-    "KeyName": "Portugal",
-    "Names": ["Portugal"],
+    "KeyName": "PORTUGAL",
+    "Names": ["PORTUGAL"],
     "KeyCode": "PT",
     "Codes": ["PT", "P"]
   },
   {
-    "KeyName": "Belgium",
-    "Names": ["Belgium"],
+    "KeyName": "BELGIUM",
+    "Names": ["BELGIUM"],
     "KeyCode": "BE",
     "Codes": ["BE", "B"]
   },
   {
-    "KeyName": "Romania",
-    "Names": ["Romania"],
+    "KeyName": "ROMANIA",
+    "Names": ["ROMANIA"],
     "KeyCode": "RO",
     "Codes": ["RO", "R"]
   },
   {
-    "KeyName": "Morocco",
-    "Names": ["Morocco"],
+    "KeyName": "MOROCCO",
+    "Names": ["MOROCCO"],
     "KeyCode": "MA",
     "Codes": ["MA", "M"]
   },
   {
-    "KeyName": "Germany",
-    "Names": ["Germany"],
+    "KeyName": "GERMANY",
+    "Names": ["GERMANY"],
     "KeyCode": "DE",
     "Codes": ["DE", "D"
     ]
   },
   {
-    "KeyName": "Lithuania",
-    "Names": ["Lithuania"],
+    "KeyName": "LITHUANIA",
+    "Names": ["LITHUANIA"],
     "KeyCode": "LT",
     "Codes": ["LT", "LI"]
   },
   {
-    "KeyName": "Austria",
-    "Names": ["Austria"],
+    "KeyName": "AUSTRIA",
+    "Names": ["AUSTRIA"],
     "KeyCode": "AT",
     "Codes": ["AT", "A"]
   },
   {
-    "KeyName": "Croatia",
-    "Names": ["Croatia"],
+    "KeyName": "CROATIA",
+    "Names": ["CROATIA"],
     "KeyCode": "HR",
     "Codes": ["HR", "CR"]
   },
   {
-    "KeyName": "Dominican Republic",
-    "Names": ["Dominican Republic"],
+    "KeyName": "DOMINICAN REPUBLIC",
+    "Names": ["DOMINICAN REPUBLIC"],
     "KeyCode": "DO",
     "Codes": ["DR", "DO"]
   },
   {
-    "KeyName": "Lebanon",
-    "Names": ["Lebanon"],
+    "KeyName": "LEBANON",
+    "Names": ["LEBANON"],
     "KeyCode": "LB",
     "Codes": ["LB", "LE"]
   },
   {
-    "KeyName": "Moldova",
-    "Names": ["Moldova"],
+    "KeyName": "MOLDOVA",
+    "Names": ["MOLDOVA"],
     "KeyCode": "MD",
     "Codes": ["MD", "ML"]
   },
   {
-    "KeyName": "Malta",
-    "Names": ["Malta"],
+    "KeyName": "MALTA",
+    "Names": ["MALTA"],
     "KeyCode": "MT",
     "Codes": ["MT", "MW"]
   },
   {
-    "KeyName": "Estonia",
-    "Names": ["Estonia"],
+    "KeyName": "ESTONIA",
+    "Names": ["ESTONIA"],
     "KeyCode": "EE",
     "Codes": ["EE", "ES"]
   },
   {
-    "KeyName": "Slovenia",
-    "Names": ["Slovenia"],
+    "KeyName": "SLOVENIA",
+    "Names": ["SLOVENIA"],
     "KeyCode": "SI",
     "Codes": ["SI", "SL"]
   },
   {
-    "KeyName": "Vietnam",
-    "Names": ["Vietnam"],
+    "KeyName": "VIETNAM",
+    "Names": ["VIETNAM"],
     "KeyCode": "VN",
     "Codes": ["VN", "VI"]
   },
   {
-    "KeyName": "Serbia",
-    "Names": ["Serbia"],
+    "KeyName": "SERBIA",
+    "Names": ["SERBIA"],
     "KeyCode": "RS",
     "Codes": ["RS", "YU"]
   }

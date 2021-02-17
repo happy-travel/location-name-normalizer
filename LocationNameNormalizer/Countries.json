@@ -98,7 +98,7 @@
       "DOMINICAN REPUBLIC"
     ],
     "KeyCode": "DO",
-    "Codes": ["DO"],
+    "Codes": ["DR", "DO"],
     "Localities": [
       {
         "KeyName": "SANTO DOMINGO",
@@ -548,12 +548,6 @@
     "Names": ["CROATIA"],
     "KeyCode": "HR",
     "Codes": ["HR", "CR"]
-  },
-  {
-    "KeyName": "DOMINICAN REPUBLIC",
-    "Names": ["DOMINICAN REPUBLIC"],
-    "KeyCode": "DO",
-    "Codes": ["DR", "DO"]
   },
   {
     "KeyName": "LEBANON",

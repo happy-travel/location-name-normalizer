@@ -22,18 +22,18 @@ namespace LocationNameNormalizer
             var countries = _locationNamesRetriever.RetrieveCountries();
             var result = new Dictionary<string, CountryNode>();
             foreach (var country in countries)
-            foreach (var countryName in country.Names)
+            foreach (var countryName in country.Name.Variants)
             {
                 var localities = new Dictionary<string, Locality>();
                 if (country.Localities != null)
                 {
                     foreach (var locality in country.Localities)
-                    foreach (var localityName in locality.Names)
-                        localities.Add(localityName, locality);
+                    foreach (var localityName in locality.Name.Variants)
+                        localities.Add(localityName.ToUpperInvariant(), locality);
                 }
 
                 var node = new CountryNode(country, localities);
-                result.Add(countryName, node);
+                result.Add(countryName.ToUpperInvariant(), node);
             }
 
             _countryIndex = result;
@@ -45,7 +45,7 @@ namespace LocationNameNormalizer
             var normalizedName = countryName.ToNormalizedName();
             var node = GetCountryNode(normalizedName);
 
-            return node.Equals(default) ? normalizedName : node.Country.KeyName.ToTitleCase();
+            return node.Equals(default) ? normalizedName : node.Country.Name.Default.ToTitleCase();
         }
 
 
@@ -58,7 +58,7 @@ namespace LocationNameNormalizer
                 return countryCode;
 
             //TODO: Maybe depending on data will need to check for codes list.
-            return node.Country.KeyCode;
+            return node.Country.Code.Default;
         }
 
 
@@ -73,7 +73,7 @@ namespace LocationNameNormalizer
 
             var locality = GetLocality(node, normalizedLocalityName);
 
-            return locality == null ? normalizedLocalityName : locality.KeyName.ToTitleCase();
+            return locality == null ? normalizedLocalityName : locality.Name.Default.ToTitleCase();
         }
 
 
@@ -83,7 +83,7 @@ namespace LocationNameNormalizer
             if (node.Equals(default))
                 return new List<string>(0);
 
-            return node.Country.Names.ToTitleCase();
+            return node.Country.Name.Variants.ToTitleCase();
         }
 
 
@@ -97,7 +97,7 @@ namespace LocationNameNormalizer
             if (locality is null)
                 return new List<string>(0);
 
-            return locality.Names.ToTitleCase();
+            return locality.Name.Variants.ToTitleCase();
         }
 
 

@@ -17,7 +17,7 @@ namespace LocationNameNormalizer.UnitTests
                 {
                     Name = new NameWithVariants
                     {
-                        Default = "The United Kingdom",
+                        Primary = "The United Kingdom",
                         Variants =  new List<string>
                         {
                             "The United Kingdom",
@@ -34,7 +34,7 @@ namespace LocationNameNormalizer.UnitTests
                             {
                                Name = new NameWithVariants
                                {
-                                   Default = "London",
+                                   Primary = "London",
                                    Variants =  new List<string> {"London"}
                                }
                             }
@@ -45,7 +45,7 @@ namespace LocationNameNormalizer.UnitTests
                 {
                     Name = new NameWithVariants
                     {
-                        Default = "THE Russian Federation",
+                        Primary = "The Russian Federation",
                         Variants =  new List<string>
                         {
                             "The Russian Federation",
@@ -59,7 +59,7 @@ namespace LocationNameNormalizer.UnitTests
                         {
                             Name = new NameWithVariants
                             {
-                                Default = "Moscow",
+                                Primary = "Moscow",
                                 Variants = new List<string>
                                 {
                                     "Moscow",
@@ -74,12 +74,12 @@ namespace LocationNameNormalizer.UnitTests
                 {
                     Code = new NameWithVariants
                     {
-                        Default = "CZ",
+                        Primary = "CZ",
                         Variants = new List<string> {"CZ", "C"}
                     },
                     Name = new NameWithVariants
                     {
-                        Default = "The Czech Republic",
+                        Primary = "The Czech Republic",
                         Variants = new List<string>
                         {
                             "The Czech Republic",
@@ -93,7 +93,7 @@ namespace LocationNameNormalizer.UnitTests
                         {
                             Name = new NameWithVariants
                             {
-                                Default = "Prague",
+                                Primary = "Prague",
                                 Variants = new List<string> {"Prague"}
                             }
                         }

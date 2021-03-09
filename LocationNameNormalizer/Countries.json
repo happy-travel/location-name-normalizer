@@ -1,13 +1,13 @@
 ﻿[
   {
     "Code": {
-      "Default": "BS",
+      "Primary": "BS",
       "Variants": [
         "BS"
       ]
     },
     "Name": {
-      "Default": "The Bahamas",
+      "Primary": "The Bahamas",
       "Variants": [
         "The Bahamas",
         "Bahamas",
@@ -18,7 +18,7 @@
     "Localities": [
       {
         "Name": {
-          "Default": "Nassau",
+          "Primary": "Nassau",
           "Variants": [
             "Nassau"
           ]
@@ -28,13 +28,13 @@
   },
   {
     "Code": {
-      "Default": "KY",
+      "Primary": "KY",
       "Variants": [
         "KY"
       ]
     },
     "Name": {
-      "Default": "The Cayman Islands",
+      "Primary": "The Cayman Islands",
       "Variants": [
         "The Cayman Islands",
         "Cayman Islands"
@@ -43,7 +43,7 @@
     "Localities": [
       {
         "Name": {
-          "Default": "George Town",
+          "Primary": "George Town",
           "Variants": [
             "George Town"
           ]
@@ -53,13 +53,13 @@
   },
   {
     "Code": {
-      "Default": "CF",
+      "Primary": "CF",
       "Variants": [
         "CF"
       ]
     },
     "Name": {
-      "Default": "The Central African Republic",
+      "Primary": "The Central African Republic",
       "Variants": [
         "The Central African Republic",
         "Central African Republic",
@@ -69,7 +69,7 @@
     "Localities": [
       {
         "Name": {
-          "Default": "Bangui",
+          "Primary": "Bangui",
           "Variants": [
             "Bangui",
             "Bangi"
@@ -80,13 +80,13 @@
   },
   {
     "Code": {
-      "Default": "KM",
+      "Primary": "KM",
       "Variants": [
         "KM"
       ]
     },
     "Name": {
-      "Default": "The Union Of The Comoros",
+      "Primary": "The Union Of The Comoros",
       "Variants": [
         "The Union Of The Comoros",
         "Union Of The Comoros",
@@ -97,7 +97,7 @@
     "Localities": [
       {
         "Name": {
-          "Default": "Moroni",
+          "Primary": "Moroni",
           "Variants": [
             "Moroni"
           ]
@@ -107,14 +107,14 @@
   },
   {
     "Code": {
-      "Default": "CZ",
+      "Primary": "CZ",
       "Variants": [
         "CZ",
         "C"
       ]
     },
     "Name": {
-      "Default": "The Czech Republic",
+      "Primary": "The Czech Republic",
       "Variants": [
         "The Czech Republic",
         "Czech Republic",
@@ -124,7 +124,7 @@
     "Localities": [
       {
         "Name": {
-          "Default": "Prague",
+          "Primary": "Prague",
           "Variants": [
             "Prague"
           ]
@@ -134,14 +134,14 @@
   },
   {
     "Code": {
-      "Default": "DO",
+      "Primary": "DO",
       "Variants": [
         "DR",
         "DO"
       ]
     },
     "Name": {
-      "Default": "The Dominican Republic",
+      "Primary": "The Dominican Republic",
       "Variants": [
         "The Dominican Republic",
         "Dominican Republic"
@@ -150,7 +150,7 @@
     "Localities": [
       {
         "Name": {
-          "Default": "Santo Domingo",
+          "Primary": "Santo Domingo",
           "Variants": [
             "Santo Domingo"
           ]
@@ -160,13 +160,13 @@
   },
   {
     "Code": {
-      "Default": "GM",
+      "Primary": "GM",
       "Variants": [
         "GM"
       ]
     },
     "Name": {
-      "Default": "The Republic Of The Gambia",
+      "Primary": "The Republic Of The Gambia",
       "Variants": [
         "The Republic Of The Gambia",
         "Republic Of The Gambia",
@@ -177,7 +177,7 @@
     "Localities": [
       {
         "Name": {
-          "Default": "City Of Banjul",
+          "Primary": "City Of Banjul",
           "Variants": [
             "City Of Banjul",
             "Banjul"
@@ -188,13 +188,13 @@
   },
   {
     "Code": {
-      "Default": "HK",
+      "Primary": "HK",
       "Variants": [
         "HK"
       ]
     },
     "Name": {
-      "Default": "Hong Kong",
+      "Primary": "Hong Kong",
       "Variants": [
         "Hong Kong",
         "The Hong Kong Special Administrative Region Of The People's Republic Of China",
@@ -206,7 +206,7 @@
     "Localities": [
       {
         "Name": {
-          "Default": "Hong Kong",
+          "Primary": "Hong Kong",
           "Variants": [
             "Hong Kong"
           ]
@@ -216,13 +216,13 @@
   },
   {
     "Code": {
-      "Default": "CI",
+      "Primary": "CI",
       "Variants": [
         "CI"
       ]
     },
     "Name": {
-      "Default": "Republic Of Côte D'ivoire",
+      "Primary": "Republic Of Côte D'ivoire",
       "Variants": [
         "Republic Of Côte D'ivoire",
         "Republic Of Cote D'ivoire",
@@ -235,7 +235,7 @@
     "Localities": [
       {
         "Name": {
-          "Default": "Yamoussoukro",
+          "Primary": "Yamoussoukro",
           "Variants": [
             "Yamoussoukro"
           ]
@@ -245,13 +245,13 @@
   },
   {
     "Code": {
-      "Default": "KP",
+      "Primary": "KP",
       "Variants": [
         "KP"
       ]
     },
     "Name": {
-      "Default": "The Democratic People's Republic Of Korea",
+      "Primary": "The Democratic People's Republic Of Korea",
       "Variants": [
         "The Democratic People's Republic Of Korea",
         "Democratic People's Republic Of Korea",
@@ -261,7 +261,7 @@
     "Localities": [
       {
         "Name": {
-          "Default": "Pyongyang",
+          "Primary": "Pyongyang",
           "Variants": [
             "Pyongyang"
           ]
@@ -271,13 +271,13 @@
   },
   {
     "Code": {
-      "Default": "LA",
+      "Primary": "LA",
       "Variants": [
         "LA"
       ]
     },
     "Name": {
-      "Default": "The Lao People's Democratic Republic",
+      "Primary": "The Lao People's Democratic Republic",
       "Variants": [
         "The Lao People's Democratic Republic",
         "Lao People's Democratic Republic",
@@ -287,7 +287,7 @@
     "Localities": [
       {
         "Name": {
-          "Default": "Vientiane",
+          "Primary": "Vientiane",
           "Variants": [
             "Vientiane"
           ]
@@ -297,13 +297,13 @@
   },
   {
     "Code": {
-      "Default": "MO",
+      "Primary": "MO",
       "Variants": [
         "MO"
       ]
     },
     "Name": {
-      "Default": "Macao",
+      "Primary": "Macao",
       "Variants": [
         "Macao",
         "Macao Special Administrative Region Of The People's Republic Of China",
@@ -316,7 +316,7 @@
     "Localities": [
       {
         "Name": {
-          "Default": "Macao",
+          "Primary": "Macao",
           "Variants": [
             "Macao"
           ]
@@ -326,13 +326,13 @@
   },
   {
     "Code": {
-      "Default": "NL",
+      "Primary": "NL",
       "Variants": [
         "NL"
       ]
     },
     "Name": {
-      "Default": "The Netherlands",
+      "Primary": "The Netherlands",
       "Variants": [
         "The Netherlands",
         "Netherlands",
@@ -342,7 +342,7 @@
     "Localities": [
       {
         "Name": {
-          "Default": "Amsterdam",
+          "Primary": "Amsterdam",
           "Variants": [
             "Amsterdam"
           ]
@@ -352,13 +352,13 @@
   },
   {
     "Code": {
-      "Default": "CN",
+      "Primary": "CN",
       "Variants": [
         "CN"
       ]
     },
     "Name": {
-      "Default": "The People's Republic Of China",
+      "Primary": "The People's Republic Of China",
       "Variants": [
         "The People's Republic Of China",
         "People's Republic Of China",
@@ -369,7 +369,7 @@
     "Localities": [
       {
         "Name": {
-          "Default": "Beijing",
+          "Primary": "Beijing",
           "Variants": [
             "Beijing",
             "Peking"
@@ -380,13 +380,13 @@
   },
   {
     "Code": {
-      "Default": "KR",
+      "Primary": "KR",
       "Variants": [
         "KR"
       ]
     },
     "Name": {
-      "Default": "The Republic Of Korea",
+      "Primary": "The Republic Of Korea",
       "Variants": [
         "The Republic Of Korea",
         "Republic Of Korea",
@@ -396,7 +396,7 @@
     "Localities": [
       {
         "Name": {
-          "Default": "Seoul",
+          "Primary": "Seoul",
           "Variants": [
             "Seoul"
           ]
@@ -406,13 +406,13 @@
   },
   {
     "Code": {
-      "Default": "MV",
+      "Primary": "MV",
       "Variants": [
         "MV"
       ]
     },
     "Name": {
-      "Default": "The Republic Of Maldives",
+      "Primary": "The Republic Of Maldives",
       "Variants": [
         "The Republic Of Maldives",
         "Republic Of Maldives",
@@ -423,7 +423,7 @@
     "Localities": [
       {
         "Name": {
-          "Default": "Malé",
+          "Primary": "Malé",
           "Variants": [
             "Malé",
             "Male"
@@ -434,13 +434,13 @@
   },
   {
     "Code": {
-      "Default": "MH",
+      "Primary": "MH",
       "Variants": [
         "MH"
       ]
     },
     "Name": {
-      "Default": "The Republic Of The Marshall Islands",
+      "Primary": "The Republic Of The Marshall Islands",
       "Variants": [
         "The Republic Of The Marshall Islands",
         "Republic Of The Marshall Islands",
@@ -451,7 +451,7 @@
     "Localities": [
       {
         "Name": {
-          "Default": "Majuro",
+          "Primary": "Majuro",
           "Variants": [
             "Majuro"
           ]
@@ -461,13 +461,13 @@
   },
   {
     "Code": {
-      "Default": "MM",
+      "Primary": "MM",
       "Variants": [
         "MM"
       ]
     },
     "Name": {
-      "Default": "The Republic Of The Union Of Myanmar",
+      "Primary": "The Republic Of The Union Of Myanmar",
       "Variants": [
         "The Republic Of The Union Of Myanmar",
         "Republic Of The Union Of Myanmar",
@@ -478,7 +478,7 @@
     "Localities": [
       {
         "Name": {
-          "Default": "Naypyidaw",
+          "Primary": "Naypyidaw",
           "Variants": [
             "Naypyidaw"
           ]
@@ -488,13 +488,13 @@
   },
   {
     "Code": {
-      "Default": "PH",
+      "Primary": "PH",
       "Variants": [
         "PH"
       ]
     },
     "Name": {
-      "Default": "The Republic Of The Philippines",
+      "Primary": "The Republic Of The Philippines",
       "Variants": [
         "The Republic Of The Philippines",
         "Republic Of The Philippines",
@@ -505,7 +505,7 @@
     "Localities": [
       {
         "Name": {
-          "Default": "City Of Manila",
+          "Primary": "City Of Manila",
           "Variants": [
             "City Of Manila",
             "Manila"
@@ -516,13 +516,13 @@
   },
   {
     "Code": {
-      "Default": "RU",
+      "Primary": "RU",
       "Variants": [
         "RU"
       ]
     },
     "Name": {
-      "Default": "The Russian Federation",
+      "Primary": "The Russian Federation",
       "Variants": [
         "The Russian Federation",
         "Russian Federation",
@@ -532,7 +532,7 @@
     "Localities": [
       {
         "Name": {
-          "Default": "Moscow",
+          "Primary": "Moscow",
           "Variants": [
             "Moscow",
             "Moskwa",
@@ -544,13 +544,13 @@
   },
   {
     "Code": {
-      "Default": "SB",
+      "Primary": "SB",
       "Variants": [
         "SB"
       ]
     },
     "Name": {
-      "Default": "The Solomon Islands",
+      "Primary": "The Solomon Islands",
       "Variants": [
         "The Solomon Islands",
         "Solomon Islands"
@@ -559,7 +559,7 @@
     "Localities": [
       {
         "Name": {
-          "Default": "Honiara",
+          "Primary": "Honiara",
           "Variants": [
             "Honiara"
           ]
@@ -569,13 +569,13 @@
   },
   {
     "Code": {
-      "Default": "TW",
+      "Primary": "TW",
       "Variants": [
         "TW"
       ]
     },
     "Name": {
-      "Default": "The Republic Of China",
+      "Primary": "The Republic Of China",
       "Variants": [
         "The Republic Of China",
         "Republic Of China",
@@ -586,7 +586,7 @@
     "Localities": [
       {
         "Name": {
-          "Default": "Taipei",
+          "Primary": "Taipei",
           "Variants": [
             "Taipei"
           ]
@@ -596,13 +596,13 @@
   },
   {
     "Code": {
-      "Default": "AE",
+      "Primary": "AE",
       "Variants": [
         "AE"
       ]
     },
     "Name": {
-      "Default": "The United Arab Emirates",
+      "Primary": "The United Arab Emirates",
       "Variants": [
         "The United Arab Emirates",
         "United Arab Emirates",
@@ -613,7 +613,7 @@
     "Localities": [
       {
         "Name": {
-          "Default": "Abu Dhabi",
+          "Primary": "Abu Dhabi",
           "Variants": [
             "Abu Dhabi"
           ]
@@ -623,13 +623,13 @@
   },
   {
     "Code": {
-      "Default": "GB",
+      "Primary": "GB",
       "Variants": [
         "GB"
       ]
     },
     "Name": {
-      "Default": "The United Kingdom",
+      "Primary": "The United Kingdom",
       "Variants": [
         "The United Kingdom",
         "United Kingdom",
@@ -641,7 +641,7 @@
     "Localities": [
       {
         "Name": {
-          "Default": "London",
+          "Primary": "London",
           "Variants": [
             "London"
           ]
@@ -651,13 +651,13 @@
   },
   {
     "Code": {
-      "Default": "US",
+      "Primary": "US",
       "Variants": [
         "US"
       ]
     },
     "Name": {
-      "Default": "The United States",
+      "Primary": "The United States",
       "Variants": [
         "The United States",
         "United States",
@@ -670,7 +670,7 @@
     "Localities": [
       {
         "Name": {
-          "Default": "Washington, D.C.",
+          "Primary": "Washington, D.C.",
           "Variants": [
             "Washington, D.C.",
             "Washington, Dc"
@@ -681,14 +681,14 @@
   },
   {
     "Code": {
-      "Default": "IT",
+      "Primary": "IT",
       "Variants": [
         "IT",
         "I"
       ]
     },
     "Name": {
-      "Default": "Italy",
+      "Primary": "Italy",
       "Variants": [
         "Italy"
       ]
@@ -697,14 +697,14 @@
   },
   {
     "Code": {
-      "Default": "ES",
+      "Primary": "ES",
       "Variants": [
         "ES",
         "E"
       ]
     },
     "Name": {
-      "Default": "Spain",
+      "Primary": "Spain",
       "Variants": [
         "Spain"
       ]
@@ -713,14 +713,14 @@
   },
   {
     "Code": {
-      "Default": "FR",
+      "Primary": "FR",
       "Variants": [
         "FR",
         "F"
       ]
     },
     "Name": {
-      "Default": "France",
+      "Primary": "France",
       "Variants": [
         "France"
       ]
@@ -729,14 +729,14 @@
   },
   {
     "Code": {
-      "Default": "HU",
+      "Primary": "HU",
       "Variants": [
         "HU",
         "H"
       ]
     },
     "Name": {
-      "Default": "Hungary",
+      "Primary": "Hungary",
       "Variants": [
         "Hungary"
       ]
@@ -745,14 +745,14 @@
   },
   {
     "Code": {
-      "Default": "PT",
+      "Primary": "PT",
       "Variants": [
         "PT",
         "P"
       ]
     },
     "Name": {
-      "Default": "Portugal",
+      "Primary": "Portugal",
       "Variants": [
         "Portugal"
       ]
@@ -761,14 +761,14 @@
   },
   {
     "Code": {
-      "Default": "BE",
+      "Primary": "BE",
       "Variants": [
         "BE",
         "B"
       ]
     },
     "Name": {
-      "Default": "Belgium",
+      "Primary": "Belgium",
       "Variants": [
         "Belgium"
       ]
@@ -777,14 +777,14 @@
   },
   {
     "Code": {
-      "Default": "RO",
+      "Primary": "RO",
       "Variants": [
         "RO",
         "R"
       ]
     },
     "Name": {
-      "Default": "Romania",
+      "Primary": "Romania",
       "Variants": [
         "Romania"
       ]
@@ -793,14 +793,14 @@
   },
   {
     "Code": {
-      "Default": "MA",
+      "Primary": "MA",
       "Variants": [
         "MA",
         "M"
       ]
     },
     "Name": {
-      "Default": "Morocco",
+      "Primary": "Morocco",
       "Variants": [
         "Morocco"
       ]
@@ -809,14 +809,14 @@
   },
   {
     "Code": {
-      "Default": "DE",
+      "Primary": "DE",
       "Variants": [
         "DE",
         "D"
       ]
     },
     "Name": {
-      "Default": "Germany",
+      "Primary": "Germany",
       "Variants": [
         "Germany"
       ]
@@ -825,14 +825,14 @@
   },
   {
     "Code": {
-      "Default": "LT",
+      "Primary": "LT",
       "Variants": [
         "LT",
         "LI"
       ]
     },
     "Name": {
-      "Default": "Lithuania",
+      "Primary": "Lithuania",
       "Variants": [
         "Lithuania"
       ]
@@ -841,14 +841,14 @@
   },
   {
     "Code": {
-      "Default": "AT",
+      "Primary": "AT",
       "Variants": [
         "AT",
         "A"
       ]
     },
     "Name": {
-      "Default": "Austria",
+      "Primary": "Austria",
       "Variants": [
         "Austria"
       ]
@@ -857,14 +857,14 @@
   },
   {
     "Code": {
-      "Default": "HR",
+      "Primary": "HR",
       "Variants": [
         "HR",
         "CR"
       ]
     },
     "Name": {
-      "Default": "Croatia",
+      "Primary": "Croatia",
       "Variants": [
         "Croatia"
       ]
@@ -873,14 +873,14 @@
   },
   {
     "Code": {
-      "Default": "LB",
+      "Primary": "LB",
       "Variants": [
         "LB",
         "LE"
       ]
     },
     "Name": {
-      "Default": "Lebanon",
+      "Primary": "Lebanon",
       "Variants": [
         "Lebanon"
       ]
@@ -889,14 +889,14 @@
   },
   {
     "Code": {
-      "Default": "MD",
+      "Primary": "MD",
       "Variants": [
         "MD",
         "ML"
       ]
     },
     "Name": {
-      "Default": "Moldova",
+      "Primary": "Moldova",
       "Variants": [
         "Moldova"
       ]
@@ -905,14 +905,14 @@
   },
   {
     "Code": {
-      "Default": "MT",
+      "Primary": "MT",
       "Variants": [
         "MT",
         "MW"
       ]
     },
     "Name": {
-      "Default": "Malta",
+      "Primary": "Malta",
       "Variants": [
         "Malta"
       ]
@@ -921,14 +921,14 @@
   },
   {
     "Code": {
-      "Default": "EE",
+      "Primary": "EE",
       "Variants": [
         "EE",
         "ES"
       ]
     },
     "Name": {
-      "Default": "Estonia",
+      "Primary": "Estonia",
       "Variants": [
         "Estonia"
       ]
@@ -937,14 +937,14 @@
   },
   {
     "Code": {
-      "Default": "SI",
+      "Primary": "SI",
       "Variants": [
         "SI",
         "SL"
       ]
     },
     "Name": {
-      "Default": "Slovenia",
+      "Primary": "Slovenia",
       "Variants": [
         "Slovenia"
       ]
@@ -953,14 +953,14 @@
   },
   {
     "Code": {
-      "Default": "VN",
+      "Primary": "VN",
       "Variants": [
         "VN",
         "VI"
       ]
     },
     "Name": {
-      "Default": "Vietnam",
+      "Primary": "Vietnam",
       "Variants": [
         "Vietnam"
       ]
@@ -969,14 +969,14 @@
   },
   {
     "Code": {
-      "Default": "RS",
+      "Primary": "RS",
       "Variants": [
         "RS",
         "YU"
       ]
     },
     "Name": {
-      "Default": "Serbia",
+      "Primary": "Serbia",
       "Variants": [
         "Serbia"
       ]

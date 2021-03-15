@@ -15,66 +15,87 @@ namespace LocationNameNormalizer.UnitTests
             {
                 new Country
                 {
-                    KeyName = "THE UNITED KINGDOM",
-                    Names = new List<string>
+                    Name = new NameWithVariants
                     {
-                        "THE UNITED KINGDOM",
-                        "UNITED KINGDOM",
-                        "THE UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND",
-                        "UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND",
-                        "GREAT BRITAIN"
+                        Primary = "The United Kingdom",
+                        Variants =  new List<string>
+                        {
+                            "The United Kingdom",
+                            "United Kingdom",
+                            "The United Kingdom Of Great Britain And Norther Ireland",
+                            "United Kingdom Of Great Britain And Norther Ireland",
+                            "Great Britain"
+                        }
                     },
                     Localities = new List<Locality>
                     {
                         {
                             new Locality
                             {
-                                KeyName = "LONDON",
-                                Names = new List<string> {"LONDON"}
+                               Name = new NameWithVariants
+                               {
+                                   Primary = "London",
+                                   Variants =  new List<string> {"London"}
+                               }
                             }
                         }
                     }
                 },
                 new Country
                 {
-                    KeyName = "THE RUSSIAN FEDERATION",
-                    Names = new List<string>
+                    Name = new NameWithVariants
                     {
-                        "THE RUSSIAN FEDERATION",
-                        "RUSSIAN FEDERATION",
-                        "RUSSIA"
+                        Primary = "The Russian Federation",
+                        Variants =  new List<string>
+                        {
+                            "The Russian Federation",
+                            "Russian Federation",
+                            "Russia"
+                        }
                     },
                     Localities = new List<Locality>
                     {
                         new Locality
                         {
-                            KeyName = "MOSCOW",
-                            Names = new List<string>
+                            Name = new NameWithVariants
                             {
-                                "MOSCOW",
-                                "MOSKWA",
-                                "MOSKVA"
+                                Primary = "Moscow",
+                                Variants = new List<string>
+                                {
+                                    "Moscow",
+                                    "Moskwa",
+                                    "Moskva"
+                                }
                             }
                         }
                     }
                 },
                 new Country
                 {
-                    KeyCode = "CZ",
-                    Codes = new List<string> {"CZ", "C"},
-                    KeyName = "THE CZECH REPUBLIC",
-                    Names = new List<string>
+                    Code = new NameWithVariants
                     {
-                        "THE CZECH REPUBLIC",
-                        "CZECH REPUBLIC",
-                        "CZECHIA"
+                        Primary = "CZ",
+                        Variants = new List<string> {"CZ", "C"}
+                    },
+                    Name = new NameWithVariants
+                    {
+                        Primary = "The Czech Republic",
+                        Variants = new List<string>
+                        {
+                            "The Czech Republic",
+                            "Czech Republic",
+                            "Czechia"
+                        }
                     },
                     Localities = new List<Locality>
                     {
                         new Locality
                         {
-                            KeyName = "PRAGUE",
-                            Names = new List<string> {"PRAGUE"}
+                            Name = new NameWithVariants
+                            {
+                                Primary = "Prague",
+                                Variants = new List<string> {"Prague"}
+                            }
                         }
                     }
                 }

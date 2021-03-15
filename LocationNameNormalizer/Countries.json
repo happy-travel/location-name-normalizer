@@ -1,594 +1,986 @@
 ﻿[
   {
-    "KeyName": "THE BAHAMAS",
-    "Names": [
-      "THE BAHAMAS",
-      "BAHAMAS",
-      "THE COMMONWEALTH OF THE BAHAMAS",
-      "COMMONWEALTH OF THE BAHAMAS"
-    ],
-    "KeyCode": "BS",
-    "Codes": ["BS"],
+    "Code": {
+      "Primary": "BS",
+      "Variants": [
+        "BS"
+      ]
+    },
+    "Name": {
+      "Primary": "The Bahamas",
+      "Variants": [
+        "The Bahamas",
+        "Bahamas",
+        "The Commonwealth Of The Bahamas",
+        "Commonwealth Of The Bahamas"
+      ]
+    },
     "Localities": [
       {
-        "KeyName": "NASSAU",
-        "Names": [
-          "NASSAU"
-        ]
+        "Name": {
+          "Primary": "Nassau",
+          "Variants": [
+            "Nassau"
+          ]
+        }
       }
     ]
   },
   {
-    "KeyName": "THE CAYMAN ISLANDS",
-    "Names": [
-      "THE CAYMAN ISLANDS",
-      "CAYMAN ISLANDS"
-    ],
-    "KeyCode": "KY",
-    "Codes": ["KY"],
+    "Code": {
+      "Primary": "KY",
+      "Variants": [
+        "KY"
+      ]
+    },
+    "Name": {
+      "Primary": "The Cayman Islands",
+      "Variants": [
+        "The Cayman Islands",
+        "Cayman Islands"
+      ]
+    },
     "Localities": [
       {
-        "KeyName": "GEORGE TOWN",
-        "Names": [
-          "GEORGE TOWN"
-        ]
+        "Name": {
+          "Primary": "George Town",
+          "Variants": [
+            "George Town"
+          ]
+        }
       }
     ]
   },
   {
-    "KeyName": "THE CENTRAL AFRICAN REPUBLIC",
-    "Names": [
-      "THE CENTRAL AFRICAN REPUBLIC",
-      "CENTRAL AFRICAN REPUBLIC",
-      "CAR"
-    ],
-    "KeyCode": "CF",
-    "Codes": ["CF"],
+    "Code": {
+      "Primary": "CF",
+      "Variants": [
+        "CF"
+      ]
+    },
+    "Name": {
+      "Primary": "The Central African Republic",
+      "Variants": [
+        "The Central African Republic",
+        "Central African Republic",
+        "Car"
+      ]
+    },
     "Localities": [
       {
-        "KeyName": "BANGUI",
-        "Names": [
-          "BANGUI",
-          "BANGI"
-        ]
+        "Name": {
+          "Primary": "Bangui",
+          "Variants": [
+            "Bangui",
+            "Bangi"
+          ]
+        }
       }
     ]
   },
   {
-    "KeyName": "THE UNION OF THE COMOROS",
-    "Names": [
-      "THE UNION OF THE COMOROS",
-      "UNION OF THE COMOROS",
-      "THE COMOROS",
-      "COMOROS"
-    ],
-    "KeyCode": "KM",
-    "Codes": ["KM"],
+    "Code": {
+      "Primary": "KM",
+      "Variants": [
+        "KM"
+      ]
+    },
+    "Name": {
+      "Primary": "The Union Of The Comoros",
+      "Variants": [
+        "The Union Of The Comoros",
+        "Union Of The Comoros",
+        "The Comoros",
+        "Comoros"
+      ]
+    },
     "Localities": [
       {
-        "KeyName": "MORONI",
-        "Names": [
-          "MORONI"
-        ]
+        "Name": {
+          "Primary": "Moroni",
+          "Variants": [
+            "Moroni"
+          ]
+        }
       }
     ]
   },
   {
-    "KeyName": "THE CZECH REPUBLIC",
-    "Names": [
-      "THE CZECH REPUBLIC",
-      "CZECH REPUBLIC",
-      "CZECHIA"
-    ],
-    "KeyCode": "CZ",
-    "Codes": [ "CZ", "C"],
+    "Code": {
+      "Primary": "CZ",
+      "Variants": [
+        "CZ",
+        "C"
+      ]
+    },
+    "Name": {
+      "Primary": "The Czech Republic",
+      "Variants": [
+        "The Czech Republic",
+        "Czech Republic",
+        "Czechia"
+      ]
+    },
     "Localities": [
       {
-        "KeyName": "PRAGUE",
-        "Names": [
-          "PRAGUE"
-        ]
+        "Name": {
+          "Primary": "Prague",
+          "Variants": [
+            "Prague"
+          ]
+        }
       }
     ]
   },
   {
-    "KeyName": "THE DOMINICAN REPUBLIC",
-    "Names": [
-      "THE DOMINICAN REPUBLIC",
-      "DOMINICAN REPUBLIC"
-    ],
-    "KeyCode": "DO",
-    "Codes": ["DR", "DO"],
+    "Code": {
+      "Primary": "DO",
+      "Variants": [
+        "DR",
+        "DO"
+      ]
+    },
+    "Name": {
+      "Primary": "The Dominican Republic",
+      "Variants": [
+        "The Dominican Republic",
+        "Dominican Republic"
+      ]
+    },
     "Localities": [
       {
-        "KeyName": "SANTO DOMINGO",
-        "Names": [
-          "SANTO DOMINGO"
-        ]
+        "Name": {
+          "Primary": "Santo Domingo",
+          "Variants": [
+            "Santo Domingo"
+          ]
+        }
       }
     ]
   },
   {
-    "KeyName": "THE REPUBLIC OF THE GAMBIA",
-    "Names": [
-      "THE REPUBLIC OF THE GAMBIA",
-      "REPUBLIC OF THE GAMBIA",
-      "THE GAMBIA",
-      "GAMBIA"
-    ],
-    "KeyCode": "GM",
-    "Codes": ["GM"],
+    "Code": {
+      "Primary": "GM",
+      "Variants": [
+        "GM"
+      ]
+    },
+    "Name": {
+      "Primary": "The Republic Of The Gambia",
+      "Variants": [
+        "The Republic Of The Gambia",
+        "Republic Of The Gambia",
+        "The Gambia",
+        "Gambia"
+      ]
+    },
     "Localities": [
       {
-        "KeyName": "CITY OF BANJUL",
-        "Names": [
-          "CITY OF BANJUL",
-          "BANJUL"
-        ]
+        "Name": {
+          "Primary": "City Of Banjul",
+          "Variants": [
+            "City Of Banjul",
+            "Banjul"
+          ]
+        }
       }
     ]
   },
   {
-    "KeyName": "HONG KONG",
-    "Names": [
-      "HONG KONG",
-      "THE HONG KONG SPECIAL ADMINISTRATIVE REGION OF THE PEOPLE'S REPUBLIC OF CHINA",
-      "THE PEOPLE'S REPUBLIC OF CHINA, HONG KONG SPECIAL ADMINISTRATIVE REGION",
-      "CHINA, HONG KONG SPECIAL ADMINISTRATIVE REGION",
-      "HKSAR"
-    ],
-    "KeyCode": "HK",
-    "Codes": ["HK"],
+    "Code": {
+      "Primary": "HK",
+      "Variants": [
+        "HK"
+      ]
+    },
+    "Name": {
+      "Primary": "Hong Kong",
+      "Variants": [
+        "Hong Kong",
+        "The Hong Kong Special Administrative Region Of The People's Republic Of China",
+        "The People's Republic Of China, Hong Kong Special Administrative Region",
+        "China, Hong Kong Special Administrative Region",
+        "Hksar"
+      ]
+    },
     "Localities": [
       {
-        "KeyName": "HONG KONG",
-        "Names": [
-          "HONG KONG"
-        ]
+        "Name": {
+          "Primary": "Hong Kong",
+          "Variants": [
+            "Hong Kong"
+          ]
+        }
       }
     ]
   },
   {
-    "KeyName": "REPUBLIC OF CÔTE D'IVOIRE",
-    "Names": [
-      "REPUBLIC OF CÔTE D'IVOIRE",
-      "REPUBLIC OF COTE D'IVOIRE",
-      "CÔTE D'IVOIRE",
-      "COTE D'IVOIRE",
-      "THE IVORY COAST",
-      "IVORY COAST"
-    ],
-    "KeyCode": "CI",
-    "Codes": ["CI"],
+    "Code": {
+      "Primary": "CI",
+      "Variants": [
+        "CI"
+      ]
+    },
+    "Name": {
+      "Primary": "Republic Of Côte D'ivoire",
+      "Variants": [
+        "Republic Of Côte D'ivoire",
+        "Republic Of Cote D'ivoire",
+        "Côte D'ivoire",
+        "Cote D'ivoire",
+        "The Ivory Coast",
+        "Ivory Coast"
+      ]
+    },
     "Localities": [
       {
-        "KeyName": "YAMOUSSOUKRO",
-        "Names": [
-          "YAMOUSSOUKRO"
-        ]
+        "Name": {
+          "Primary": "Yamoussoukro",
+          "Variants": [
+            "Yamoussoukro"
+          ]
+        }
       }
     ]
   },
   {
-    "KeyName": "THE DEMOCRATIC PEOPLE'S REPUBLIC OF KOREA",
-    "Names": [
-      "THE DEMOCRATIC PEOPLE'S REPUBLIC OF KOREA",
-      "DEMOCRATIC PEOPLE'S REPUBLIC OF KOREA",
-      "NORTH KOREA"
-    ],
-    "KeyCode": "KP",
-    "Codes": ["KP"],
+    "Code": {
+      "Primary": "KP",
+      "Variants": [
+        "KP"
+      ]
+    },
+    "Name": {
+      "Primary": "The Democratic People's Republic Of Korea",
+      "Variants": [
+        "The Democratic People's Republic Of Korea",
+        "Democratic People's Republic Of Korea",
+        "North Korea"
+      ]
+    },
     "Localities": [
       {
-        "KeyName": "PYONGYANG",
-        "Names": [
-          "PYONGYANG"
-        ]
+        "Name": {
+          "Primary": "Pyongyang",
+          "Variants": [
+            "Pyongyang"
+          ]
+        }
       }
     ]
   },
   {
-    "KeyName": "THE LAO PEOPLE'S DEMOCRATIC REPUBLIC",
-    "Names": [
-      "THE LAO PEOPLE'S DEMOCRATIC REPUBLIC",
-      "LAO PEOPLE'S DEMOCRATIC REPUBLIC",
-      "LAOS"
-    ],
-    "KeyCode": "LA",
-    "Codes": ["LA"],
+    "Code": {
+      "Primary": "LA",
+      "Variants": [
+        "LA"
+      ]
+    },
+    "Name": {
+      "Primary": "The Lao People's Democratic Republic",
+      "Variants": [
+        "The Lao People's Democratic Republic",
+        "Lao People's Democratic Republic",
+        "Laos"
+      ]
+    },
     "Localities": [
       {
-        "KeyName": "VIENTIANE",
-        "Names": [
-          "VIENTIANE"
-        ]
+        "Name": {
+          "Primary": "Vientiane",
+          "Variants": [
+            "Vientiane"
+          ]
+        }
       }
     ]
   },
   {
-    "KeyName": "MACAO",
-    "Names": [
-      "MACAO",
-      "MACAO SPECIAL ADMINISTRATIVE REGION OF THE PEOPLE'S REPUBLIC OF CHINA",
-      "THE PEOPLE'S REPUBLIC OF CHINA, MACAO SPECIAL ADMINISTRATIVE REGION",
-      "CHINA, MACAO SPECIAL ADMINISTRATIVE REGION",
-      "MACAU",
-      "MSAR"
-    ],
-    "KeyCode": "MO",
-    "Codes": ["MO"],
+    "Code": {
+      "Primary": "MO",
+      "Variants": [
+        "MO"
+      ]
+    },
+    "Name": {
+      "Primary": "Macao",
+      "Variants": [
+        "Macao",
+        "Macao Special Administrative Region Of The People's Republic Of China",
+        "The People's Republic Of China, Macao Special Administrative Region",
+        "China, Macao Special Administrative Region",
+        "Macau",
+        "Msar"
+      ]
+    },
     "Localities": [
       {
-        "KeyName": "MACAO",
-        "Names": [
-          "MACAO"
-        ]
+        "Name": {
+          "Primary": "Macao",
+          "Variants": [
+            "Macao"
+          ]
+        }
       }
     ]
   },
   {
-    "KeyName": "THE NETHERLANDS",
-    "Names": [
-      "THE NETHERLANDS",
-      "NETHERLANDS",
-      "HOLLAND"
-    ],
-    "KeyCode": "NL",
-    "Codes": ["NL"],
+    "Code": {
+      "Primary": "NL",
+      "Variants": [
+        "NL"
+      ]
+    },
+    "Name": {
+      "Primary": "The Netherlands",
+      "Variants": [
+        "The Netherlands",
+        "Netherlands",
+        "Holland"
+      ]
+    },
     "Localities": [
       {
-        "KeyName": "AMSTERDAM",
-        "Names": [
-          "AMSTERDAM"
-        ]
+        "Name": {
+          "Primary": "Amsterdam",
+          "Variants": [
+            "Amsterdam"
+          ]
+        }
       }
     ]
   },
   {
-    "KeyName": "THE PEOPLE'S REPUBLIC OF CHINA",
-    "Names": [
-      "THE PEOPLE'S REPUBLIC OF CHINA",
-      "PEOPLE'S REPUBLIC OF CHINA",
-      "CHINA",
-      "PRC"
-    ],
-    "KeyCode": "CN",
-    "Codes": ["CN"],
+    "Code": {
+      "Primary": "CN",
+      "Variants": [
+        "CN"
+      ]
+    },
+    "Name": {
+      "Primary": "The People's Republic Of China",
+      "Variants": [
+        "The People's Republic Of China",
+        "People's Republic Of China",
+        "China",
+        "Prc"
+      ]
+    },
     "Localities": [
       {
-        "KeyName": "BEIJING",
-        "Names": [
-          "BEIJING",
-          "PEKING"
-        ]
+        "Name": {
+          "Primary": "Beijing",
+          "Variants": [
+            "Beijing",
+            "Peking"
+          ]
+        }
       }
     ]
   },
   {
-    "KeyName": "THE REPUBLIC OF KOREA",
-    "Names": [
-      "THE REPUBLIC OF KOREA",
-      "REPUBLIC OF KOREA",
-      "SOUTH KOREA"
-    ],
-    "KeyCode": "KR",
-    "Codes": ["KR"],
+    "Code": {
+      "Primary": "KR",
+      "Variants": [
+        "KR"
+      ]
+    },
+    "Name": {
+      "Primary": "The Republic Of Korea",
+      "Variants": [
+        "The Republic Of Korea",
+        "Republic Of Korea",
+        "South Korea"
+      ]
+    },
     "Localities": [
       {
-        "KeyName": "SEOUL",
-        "Names": [
-          "SEOUL"
-        ]
+        "Name": {
+          "Primary": "Seoul",
+          "Variants": [
+            "Seoul"
+          ]
+        }
       }
     ]
   },
   {
-    "KeyName": "THE REPUBLIC OF MALDIVES",
-    "Names": [
-      "THE REPUBLIC OF MALDIVES",
-      "REPUBLIC OF MALDIVES",
-      "THE MALDIVES",
-      "MALDIVES"
-    ],
-    "KeyCode": "MV",
-    "Codes": ["MV"],
+    "Code": {
+      "Primary": "MV",
+      "Variants": [
+        "MV"
+      ]
+    },
+    "Name": {
+      "Primary": "The Republic Of Maldives",
+      "Variants": [
+        "The Republic Of Maldives",
+        "Republic Of Maldives",
+        "The Maldives",
+        "Maldives"
+      ]
+    },
     "Localities": [
       {
-        "KeyName": "MALÉ",
-        "Names": [
-          "MALÉ",
-          "MALE"
-        ]
+        "Name": {
+          "Primary": "Malé",
+          "Variants": [
+            "Malé",
+            "Male"
+          ]
+        }
       }
     ]
   },
   {
-    "KeyName": "THE REPUBLIC OF THE MARSHALL ISLANDS",
-    "Names": [
-      "THE REPUBLIC OF THE MARSHALL ISLANDS",
-      "REPUBLIC OF THE MARSHALL ISLANDS",
-      "THE MARSHALL ISLANDS",
-      "MARSHALL ISLANDS"
-    ],
-    "KeyCode": "MH",
-    "Codes": ["MH"],
+    "Code": {
+      "Primary": "MH",
+      "Variants": [
+        "MH"
+      ]
+    },
+    "Name": {
+      "Primary": "The Republic Of The Marshall Islands",
+      "Variants": [
+        "The Republic Of The Marshall Islands",
+        "Republic Of The Marshall Islands",
+        "The Marshall Islands",
+        "Marshall Islands"
+      ]
+    },
     "Localities": [
       {
-        "KeyName": "MAJURO",
-        "Names": [
-          "MAJURO"
-        ]
+        "Name": {
+          "Primary": "Majuro",
+          "Variants": [
+            "Majuro"
+          ]
+        }
       }
     ]
   },
   {
-    "KeyName": "THE REPUBLIC OF THE UNION OF MYANMAR",
-    "Names": [
-      "THE REPUBLIC OF THE UNION OF MYANMAR",
-      "REPUBLIC OF THE UNION OF MYANMAR",
-      "MYANMAR",
-      "BURMA"
-    ],
-    "KeyCode": "MM",
-    "Codes": ["MM"],
+    "Code": {
+      "Primary": "MM",
+      "Variants": [
+        "MM"
+      ]
+    },
+    "Name": {
+      "Primary": "The Republic Of The Union Of Myanmar",
+      "Variants": [
+        "The Republic Of The Union Of Myanmar",
+        "Republic Of The Union Of Myanmar",
+        "Myanmar",
+        "Burma"
+      ]
+    },
     "Localities": [
       {
-        "KeyName": "NAYPYIDAW",
-        "Names": [
-          "NAYPYIDAW"
-        ]
+        "Name": {
+          "Primary": "Naypyidaw",
+          "Variants": [
+            "Naypyidaw"
+          ]
+        }
       }
     ]
   },
   {
-    "KeyName": "THE REPUBLIC OF THE PHILIPPINES",
-    "Names": [
-      "THE REPUBLIC OF THE PHILIPPINES",
-      "REPUBLIC OF THE PHILIPPINES",
-      "THE PHILIPPINES",
-      "PHILIPPINES"
-    ],
-    "KeyCode": "PH",
-    "Codes": ["PH"],
+    "Code": {
+      "Primary": "PH",
+      "Variants": [
+        "PH"
+      ]
+    },
+    "Name": {
+      "Primary": "The Republic Of The Philippines",
+      "Variants": [
+        "The Republic Of The Philippines",
+        "Republic Of The Philippines",
+        "The Philippines",
+        "Philippines"
+      ]
+    },
     "Localities": [
       {
-        "KeyName": "CITY OF MANILA",
-        "Names": [
-          "CITY OF MANILA",
-          "MANILA"
-        ]
+        "Name": {
+          "Primary": "City Of Manila",
+          "Variants": [
+            "City Of Manila",
+            "Manila"
+          ]
+        }
       }
     ]
   },
   {
-    "KeyName": "THE RUSSIAN FEDERATION",
-    "Names": [
-      "THE RUSSIAN FEDERATION",
-      "RUSSIAN FEDERATION",
-      "RUSSIA"
-    ],
-    "KeyCode": "RU",
-    "Codes": ["RU"],
+    "Code": {
+      "Primary": "RU",
+      "Variants": [
+        "RU"
+      ]
+    },
+    "Name": {
+      "Primary": "The Russian Federation",
+      "Variants": [
+        "The Russian Federation",
+        "Russian Federation",
+        "Russia"
+      ]
+    },
     "Localities": [
       {
-        "KeyName": "MOSCOW",
-        "Names": [
-          "MOSCOW",
-          "MOSKWA",
-          "MOSKVA"
-        ]
+        "Name": {
+          "Primary": "Moscow",
+          "Variants": [
+            "Moscow",
+            "Moskwa",
+            "Moskva"
+          ]
+        }
       }
     ]
   },
   {
-    "KeyName": "THE SOLOMON ISLANDS",
-    "Names": [
-      "THE SOLOMON ISLANDS",
-      "SOLOMON ISLANDS"
-    ],
-    "KeyCode": "SB",
-    "Codes": ["SB"],
+    "Code": {
+      "Primary": "SB",
+      "Variants": [
+        "SB"
+      ]
+    },
+    "Name": {
+      "Primary": "The Solomon Islands",
+      "Variants": [
+        "The Solomon Islands",
+        "Solomon Islands"
+      ]
+    },
     "Localities": [
       {
-        "KeyName": "HONIARA",
-        "Names": [
-          "HONIARA"
-        ]
+        "Name": {
+          "Primary": "Honiara",
+          "Variants": [
+            "Honiara"
+          ]
+        }
       }
     ]
   },
   {
-    "KeyName": "THE REPUBLIC OF CHINA",
-    "Names": [
-      "THE REPUBLIC OF CHINA",
-      "REPUBLIC OF CHINA",
-      "TAIWAN",
-      "ROC"
-    ],
-    "KeyCode": "TW",
-    "Codes": ["TW"],
+    "Code": {
+      "Primary": "TW",
+      "Variants": [
+        "TW"
+      ]
+    },
+    "Name": {
+      "Primary": "The Republic Of China",
+      "Variants": [
+        "The Republic Of China",
+        "Republic Of China",
+        "Taiwan",
+        "Roc"
+      ]
+    },
     "Localities": [
       {
-        "KeyName": "TAIPEI",
-        "Names": [
-          "TAIPEI"
-        ]
+        "Name": {
+          "Primary": "Taipei",
+          "Variants": [
+            "Taipei"
+          ]
+        }
       }
     ]
   },
   {
-    "KeyName": "THE UNITED ARAB EMIRATES",
-    "Names": [
-      "THE UNITED ARAB EMIRATES",
-      "UNITED ARAB EMIRATES",
-      "THE EMIRATES",
-      "EMIRATES"
-    ],
-    "KeyCode": "AE",
-    "Codes": ["AE"],
+    "Code": {
+      "Primary": "AE",
+      "Variants": [
+        "AE"
+      ]
+    },
+    "Name": {
+      "Primary": "The United Arab Emirates",
+      "Variants": [
+        "The United Arab Emirates",
+        "United Arab Emirates",
+        "The Emirates",
+        "Emirates"
+      ]
+    },
     "Localities": [
       {
-        "KeyName": "ABU DHABI",
-        "Names": [
-          "ABU DHABI"
-        ]
+        "Name": {
+          "Primary": "Abu Dhabi",
+          "Variants": [
+            "Abu Dhabi"
+          ]
+        }
       }
     ]
   },
   {
-    "KeyName": "THE UNITED KINGDOM",
-    "Names": [
-      "THE UNITED KINGDOM",
-      "UNITED KINGDOM",
-      "THE UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND",
-      "UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND",
-      "GREAT BRITAIN"
-    ],
-    "KeyCode": "GB",
-    "Codes": ["GB"],
+    "Code": {
+      "Primary": "GB",
+      "Variants": [
+        "GB"
+      ]
+    },
+    "Name": {
+      "Primary": "The United Kingdom",
+      "Variants": [
+        "The United Kingdom",
+        "United Kingdom",
+        "The United Kingdom Of Great Britain And Northern Ireland",
+        "United Kingdom Of Great Britain And Northern Ireland",
+        "Great Britain"
+      ]
+    },
     "Localities": [
       {
-        "KeyName": "LONDON",
-        "Names": [
-          "LONDON"
-        ]
+        "Name": {
+          "Primary": "London",
+          "Variants": [
+            "London"
+          ]
+        }
       }
     ]
   },
   {
-    "KeyName": "THE UNITED STATES",
-    "Names": [
-      "THE UNITED STATES",
-      "UNITED STATES",
-      "THE UNITED STATES OF AMERICA",
-      "UNITED STATES OF AMERICA",
-      "USA",
-      "US"
-    ],
-    "KeyCode": "US",
-    "Codes": ["US"],
+    "Code": {
+      "Primary": "US",
+      "Variants": [
+        "US"
+      ]
+    },
+    "Name": {
+      "Primary": "The United States",
+      "Variants": [
+        "The United States",
+        "United States",
+        "The United States Of America",
+        "United States Of America",
+        "Usa",
+        "Us"
+      ]
+    },
     "Localities": [
       {
-        "KeyName": "WASHINGTON, D.C.",
-        "Names": [
-          "WASHINGTON, D.C.",
-          "WASHINGTON, DC"
-        ]
+        "Name": {
+          "Primary": "Washington, D.C.",
+          "Variants": [
+            "Washington, D.C.",
+            "Washington, Dc"
+          ]
+        }
       }
     ]
   },
   {
-    "KeyName": "ITALY",
-    "Names": ["ITALY"],
-    "KeyCode": "IT",
-    "Codes": ["IT", "I"]
-  },
-  { "KeyName": "SPAIN",
-    "Names": ["SPAIN"],
-    "KeyCode": "ES",
-    "Codes": ["ES", "E"]
-  },
-  {
-    "KeyName": "FRANCE",
-    "Names": ["FRANCE"],
-    "KeyCode": "FR",
-    "Codes": ["FR", "F"]
-  },
-  {
-    "KeyName": "HUNGARY",
-    "Names": ["HUNGARY"],
-    "KeyCode": "HU",
-    "Codes": ["HU", "H"]
+    "Code": {
+      "Primary": "IT",
+      "Variants": [
+        "IT",
+        "I"
+      ]
+    },
+    "Name": {
+      "Primary": "Italy",
+      "Variants": [
+        "Italy"
+      ]
+    },
+    "Localities": []
   },
   {
-    "KeyName": "PORTUGAL",
-    "Names": ["PORTUGAL"],
-    "KeyCode": "PT",
-    "Codes": ["PT", "P"]
+    "Code": {
+      "Primary": "ES",
+      "Variants": [
+        "ES",
+        "E"
+      ]
+    },
+    "Name": {
+      "Primary": "Spain",
+      "Variants": [
+        "Spain"
+      ]
+    },
+    "Localities": []
   },
   {
-    "KeyName": "BELGIUM",
-    "Names": ["BELGIUM"],
-    "KeyCode": "BE",
-    "Codes": ["BE", "B"]
+    "Code": {
+      "Primary": "FR",
+      "Variants": [
+        "FR",
+        "F"
+      ]
+    },
+    "Name": {
+      "Primary": "France",
+      "Variants": [
+        "France"
+      ]
+    },
+    "Localities": []
   },
   {
-    "KeyName": "ROMANIA",
-    "Names": ["ROMANIA"],
-    "KeyCode": "RO",
-    "Codes": ["RO", "R"]
+    "Code": {
+      "Primary": "HU",
+      "Variants": [
+        "HU",
+        "H"
+      ]
+    },
+    "Name": {
+      "Primary": "Hungary",
+      "Variants": [
+        "Hungary"
+      ]
+    },
+    "Localities": []
   },
   {
-    "KeyName": "MOROCCO",
-    "Names": ["MOROCCO"],
-    "KeyCode": "MA",
-    "Codes": ["MA", "M"]
+    "Code": {
+      "Primary": "PT",
+      "Variants": [
+        "PT",
+        "P"
+      ]
+    },
+    "Name": {
+      "Primary": "Portugal",
+      "Variants": [
+        "Portugal"
+      ]
+    },
+    "Localities": []
   },
   {
-    "KeyName": "GERMANY",
-    "Names": ["GERMANY"],
-    "KeyCode": "DE",
-    "Codes": ["DE", "D"
-    ]
+    "Code": {
+      "Primary": "BE",
+      "Variants": [
+        "BE",
+        "B"
+      ]
+    },
+    "Name": {
+      "Primary": "Belgium",
+      "Variants": [
+        "Belgium"
+      ]
+    },
+    "Localities": []
   },
   {
-    "KeyName": "LITHUANIA",
-    "Names": ["LITHUANIA"],
-    "KeyCode": "LT",
-    "Codes": ["LT", "LI"]
+    "Code": {
+      "Primary": "RO",
+      "Variants": [
+        "RO",
+        "R"
+      ]
+    },
+    "Name": {
+      "Primary": "Romania",
+      "Variants": [
+        "Romania"
+      ]
+    },
+    "Localities": []
   },
   {
-    "KeyName": "AUSTRIA",
-    "Names": ["AUSTRIA"],
-    "KeyCode": "AT",
-    "Codes": ["AT", "A"]
+    "Code": {
+      "Primary": "MA",
+      "Variants": [
+        "MA",
+        "M"
+      ]
+    },
+    "Name": {
+      "Primary": "Morocco",
+      "Variants": [
+        "Morocco"
+      ]
+    },
+    "Localities": []
   },
   {
-    "KeyName": "CROATIA",
-    "Names": ["CROATIA"],
-    "KeyCode": "HR",
-    "Codes": ["HR", "CR"]
+    "Code": {
+      "Primary": "DE",
+      "Variants": [
+        "DE",
+        "D"
+      ]
+    },
+    "Name": {
+      "Primary": "Germany",
+      "Variants": [
+        "Germany"
+      ]
+    },
+    "Localities": []
   },
   {
-    "KeyName": "LEBANON",
-    "Names": ["LEBANON"],
-    "KeyCode": "LB",
-    "Codes": ["LB", "LE"]
+    "Code": {
+      "Primary": "LT",
+      "Variants": [
+        "LT",
+        "LI"
+      ]
+    },
+    "Name": {
+      "Primary": "Lithuania",
+      "Variants": [
+        "Lithuania"
+      ]
+    },
+    "Localities": []
   },
   {
-    "KeyName": "MOLDOVA",
-    "Names": ["MOLDOVA"],
-    "KeyCode": "MD",
-    "Codes": ["MD", "ML"]
+    "Code": {
+      "Primary": "AT",
+      "Variants": [
+        "AT",
+        "A"
+      ]
+    },
+    "Name": {
+      "Primary": "Austria",
+      "Variants": [
+        "Austria"
+      ]
+    },
+    "Localities": []
   },
   {
-    "KeyName": "MALTA",
-    "Names": ["MALTA"],
-    "KeyCode": "MT",
-    "Codes": ["MT", "MW"]
+    "Code": {
+      "Primary": "HR",
+      "Variants": [
+        "HR",
+        "CR"
+      ]
+    },
+    "Name": {
+      "Primary": "Croatia",
+      "Variants": [
+        "Croatia"
+      ]
+    },
+    "Localities": []
   },
   {
-    "KeyName": "ESTONIA",
-    "Names": ["ESTONIA"],
-    "KeyCode": "EE",
-    "Codes": ["EE", "ES"]
+    "Code": {
+      "Primary": "LB",
+      "Variants": [
+        "LB",
+        "LE"
+      ]
+    },
+    "Name": {
+      "Primary": "Lebanon",
+      "Variants": [
+        "Lebanon"
+      ]
+    },
+    "Localities": []
   },
   {
-    "KeyName": "SLOVENIA",
-    "Names": ["SLOVENIA"],
-    "KeyCode": "SI",
-    "Codes": ["SI", "SL"]
+    "Code": {
+      "Primary": "MD",
+      "Variants": [
+        "MD",
+        "ML"
+      ]
+    },
+    "Name": {
+      "Primary": "Moldova",
+      "Variants": [
+        "Moldova"
+      ]
+    },
+    "Localities": []
   },
   {
-    "KeyName": "VIETNAM",
-    "Names": ["VIETNAM"],
-    "KeyCode": "VN",
-    "Codes": ["VN", "VI"]
+    "Code": {
+      "Primary": "MT",
+      "Variants": [
+        "MT",
+        "MW"
+      ]
+    },
+    "Name": {
+      "Primary": "Malta",
+      "Variants": [
+        "Malta"
+      ]
+    },
+    "Localities": []
   },
   {
-    "KeyName": "SERBIA",
-    "Names": ["SERBIA"],
-    "KeyCode": "RS",
-    "Codes": ["RS", "YU"]
+    "Code": {
+      "Primary": "EE",
+      "Variants": [
+        "EE",
+        "ES"
+      ]
+    },
+    "Name": {
+      "Primary": "Estonia",
+      "Variants": [
+        "Estonia"
+      ]
+    },
+    "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "SI",
+      "Variants": [
+        "SI",
+        "SL"
+      ]
+    },
+    "Name": {
+      "Primary": "Slovenia",
+      "Variants": [
+        "Slovenia"
+      ]
+    },
+    "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "VN",
+      "Variants": [
+        "VN",
+        "VI"
+      ]
+    },
+    "Name": {
+      "Primary": "Vietnam",
+      "Variants": [
+        "Vietnam"
+      ]
+    },
+    "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "RS",
+      "Variants": [
+        "RS",
+        "YU"
+      ]
+    },
+    "Name": {
+      "Primary": "Serbia",
+      "Variants": [
+        "Serbia"
+      ]
+    },
+    "Localities": []
   }
 ]

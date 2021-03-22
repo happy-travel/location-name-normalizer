@@ -30,7 +30,8 @@
     "Code": {
       "Primary": "KY",
       "Variants": [
-        "KY"
+        "KY",
+        "CP"
       ]
     },
     "Name": {
@@ -190,7 +191,8 @@
     "Code": {
       "Primary": "HK",
       "Variants": [
-        "HK"
+        "HK",
+        "HX"
       ]
     },
     "Name": {
@@ -229,7 +231,8 @@
         "Côte D'ivoire",
         "Cote D'ivoire",
         "The Ivory Coast",
-        "Ivory Coast"
+        "Ivory Coast",
+        "Cote Divoire"
       ]
     },
     "Localities": [
@@ -382,7 +385,8 @@
     "Code": {
       "Primary": "KR",
       "Variants": [
-        "KR"
+        "KR",
+        "K"
       ]
     },
     "Name": {
@@ -546,7 +550,8 @@
     "Code": {
       "Primary": "SB",
       "Variants": [
-        "SB"
+        "SB",
+        "SO"
       ]
     },
     "Name": {
@@ -598,7 +603,8 @@
     "Code": {
       "Primary": "AE",
       "Variants": [
-        "AE"
+        "AE",
+        "EM"
       ]
     },
     "Name": {
@@ -979,6 +985,995 @@
       "Primary": "Serbia",
       "Variants": [
         "Serbia"
+      ]
+    },
+    "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "AU",
+      "Variants": [
+        "AU",
+        "AA"
+      ]
+    },
+    "Name": {
+      "Primary": "Australia",
+      "Variants": [
+        "Australia"
+      ]
+    },
+    "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "DZ",
+      "Variants": [
+        "DZ",
+        "AE"
+      ]
+    },
+    "Name": {
+      "Primary": "Algeria",
+      "Variants": [
+        "Algeria"
+      ]
+    },
+    "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "CR",
+      "Variants": [
+        "CR",
+        "CS"
+      ]
+    },
+    "Name": {
+      "Primary": "Costa Rica",
+      "Variants": [
+        "Costa Rica"
+      ]
+    },
+    "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "AW",
+      "Variants": [
+        "AW",
+        "AU"
+      ]
+    },
+    "Name": {
+      "Primary": "Aruba",
+      "Variants": [
+        "Aruba"
+      ]
+    },
+    "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "BA",
+      "Variants": [
+        "BA",
+        "BH"
+      ]
+    },
+    "Name": {
+      "Primary": "Bosnia And Herzegovina",
+      "Variants": [
+        "Bosnia And Herzegovina",
+        "Bosnia Herzegovina"
+      ]
+    },
+    "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "BH",
+      "Variants": [
+        "BH",
+        "BN"
+      ]
+    },
+    "Name": {
+      "Primary": "Bahrain",
+      "Variants": [
+        "Bahrain"
+      ]
+    },
+    "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "BN",
+      "Variants": [
+        "BN",
+        "BU"
+      ]
+    },
+    "Name": {
+      "Primary": "Brunei Darussalam",
+      "Variants": [
+        "Brunei Darussalam",
+        "Brunei"
+      ]
+    },
+    "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "LK",
+      "Variants": [
+        "LK",
+        "CE"
+      ]
+    },
+    "Name": {
+      "Primary": "Sri Lanka",
+      "Variants": [
+        "Sri Lanka"
+      ]
+    },
+    "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "ME",
+      "Variants": [
+        "ME",
+        "CG"
+      ]
+    },
+    "Name": {
+      "Primary": "Montenegro",
+      "Variants": [
+        "Montenegro"
+      ]
+    },
+    "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "CL",
+      "Variants": [
+        "CL"
+      ]
+    },
+    "Name": {
+      "Primary": "Chile",
+      "Variants": [
+        "Chile",
+        "Cile"
+      ]
+    },
+    "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "CV",
+      "Variants": [
+        "CV"
+      ]
+    },
+    "Name": {
+      "Primary": "Cape Verde",
+      "Variants": [
+        "Cape Verde",
+        "Cabo Verde"
+      ]
+    },
+    "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "QA",
+      "Variants": [
+        "QA",
+        "DH"
+      ]
+    },
+    "Name": {
+      "Primary": "Qatar",
+      "Variants": [
+        "Qatar"
+      ]
+    },
+    "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "DM",
+      "Variants": [
+        "DM",
+        "DN"
+      ]
+    },
+    "Name": {
+      "Primary": "Dominica",
+      "Variants": [
+        "Dominica"
+      ]
+    },
+    "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "EC",
+      "Variants": [
+        "EC",
+        "DN"
+      ]
+    },
+    "Name": {
+      "Primary": "Ecuador",
+      "Variants": [
+        "Ecuador"
+      ]
+    },
+    "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "IE",
+      "Variants": [
+        "IE",
+        "EI"
+      ]
+    },
+    "Name": {
+      "Primary": "Ireland",
+      "Variants": [
+        "Ireland"
+      ]
+    },
+    "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "FJ",
+      "Variants": [
+        "FJ",
+        "FI"
+      ]
+    },
+    "Name": {
+      "Primary": "Fiji",
+      "Variants": [
+        "Fiji",
+        "Fiji Island",
+        "Republic of Fiji"
+      ]
+    },
+    "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "LI",
+      "Variants": [
+        "LI",
+        "FL"
+      ]
+    },
+    "Name": {
+      "Primary": "Liechtenstein",
+      "Variants": [
+        "Liechtenstein"
+      ]
+    },
+    "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "GF",
+      "Variants": [
+        "GF",
+        "GI"
+      ]
+    },
+    "Name": {
+      "Primary": "French Guiana",
+      "Variants": [
+        "French Guiana"
+      ]
+    },
+    "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "GI",
+      "Variants": [
+        "GI",
+        "GK"
+      ]
+    },
+    "Name": {
+      "Primary": "Gibraltar",
+      "Variants": [
+        "Gibraltar"
+      ]
+    },
+    "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "MN",
+      "Variants": [
+        "MN",
+        "GL"
+      ]
+    },
+    "Name": {
+      "Primary": "Mongolia",
+      "Variants": [
+        "Mongolia"
+      ]
+    },
+    "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "CG",
+      "Variants": [
+        "CG",
+        "GO"
+      ]
+    },
+    "Name": {
+      "Primary": "Congo",
+      "Variants": [
+        "Congo",
+        "Republic Of The Congo"
+      ]
+    },
+    "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "GW",
+      "Variants": [
+        "GW"
+      ]
+    },
+    "Name": {
+      "Primary": "Guinea Bissau",
+      "Variants": [
+        "Guinea Bissau",
+        "Republic of Guinea - Bissau",
+        "Guinea-Bissau"
+      ]
+    },
+    "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "GL",
+      "Variants": [
+        "GL",
+        "GZ"
+      ]
+    },
+    "Name": {
+      "Primary": "Greenland",
+      "Variants": [
+        "Greenland"
+      ]
+    },
+    "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "HT",
+      "Variants": [
+        "HT",
+        "HA"
+      ]
+    },
+    "Name": {
+      "Primary": "Haiti",
+      "Variants": [
+        "Haiti"
+      ]
+    },
+    "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "ID",
+      "Variants": [
+        "ID",
+        "IA"
+      ]
+    },
+    "Name": {
+      "Primary": "Indonesia",
+      "Variants": [
+        "Indonesia"
+      ]
+    },
+    "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "MU",
+      "Variants": [
+        "MU",
+        "IW"
+      ]
+    },
+    "Name": {
+      "Primary": "Mauritius",
+      "Variants": [
+        "Mauritius"
+      ]
+    },
+    "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "JP",
+      "Variants": [
+        "JP",
+        "J"
+      ]
+    },
+    "Name": {
+      "Primary": "Japan",
+      "Variants": [
+        "Japan"
+      ]
+    },
+    "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "JM",
+      "Variants": [
+        "JM",
+        "JA"
+      ]
+    },
+    "Name": {
+      "Primary": "Jamaica",
+      "Variants": [
+        "Jamaica"
+      ]
+    },
+    "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "KN",
+      "Variants": [
+        "KN"
+      ]
+    },
+    "Name": {
+      "Primary": "St. Kitts And Nevis",
+      "Variants": [
+        "St. Kitts And Nevis",
+        "Saint Kitts E Nevis",
+        "Saint Kitts and Nevis"
+      ]
+    },
+    "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "XK",
+      "Variants": [
+        "XK",
+        "KO"
+      ]
+    },
+    "Name": {
+      "Primary": "Kosovo",
+      "Variants": [
+        "Kosovo"
+      ]
+    },
+    "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "KW",
+      "Variants": [
+        "KW",
+        "KT"
+      ]
+    },
+    "Name": {
+      "Primary": "Kuwait",
+      "Variants": [
+        "Kuwait"
+      ]
+    },
+    "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "LS",
+      "Variants": [
+        "LS",
+        "LH"
+      ]
+    },
+    "Name": {
+      "Primary": "Lesotho",
+      "Variants": [
+        "Lesotho"
+      ]
+    },
+    "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "MY",
+      "Variants": [
+        "MY",
+        "MA"
+      ]
+    },
+    "Name": {
+      "Primary": "Malaysia",
+      "Variants": [
+        "Malaysia"
+      ]
+    },
+    "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "MK",
+      "Variants": [
+        "MK",
+        "MD"
+      ]
+    },
+    "Name": {
+      "Primary": "Macedonia",
+      "Variants": [
+        "Macedonia",
+        "Republic of North Macedonia"
+      ]
+    },
+    "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "MX",
+      "Variants": [
+        "MX",
+        "ME"
+      ]
+    },
+    "Name": {
+      "Primary": "Mexico",
+      "Variants": [
+        "Mexico"
+      ]
+    },
+    "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "ML",
+      "Variants": [
+        "ML",
+        "MI"
+      ]
+    },
+    "Name": {
+      "Primary": "Mali",
+      "Variants": [
+        "Mali"
+      ]
+    },
+    "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "NO",
+      "Variants": [
+        "NO",
+        "N"
+      ]
+    },
+    "Name": {
+      "Primary": "Norway",
+      "Variants": [
+        "Norway"
+      ]
+    },
+    "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "PS",
+      "Variants": [
+        "PS",
+        "PA"
+      ]
+    },
+    "Name": {
+      "Primary": "State Of Palestine",
+      "Variants": [
+        "State Of Palestine",
+        "Palestine"
+      ]
+    },
+    "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "PA",
+      "Variants": [
+        "PA",
+        "PG"
+      ]
+    },
+    "Name": {
+      "Primary": "Panama",
+      "Variants": [
+        "Panama"
+      ]
+    },
+    "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "PG",
+      "Variants": [
+        "PG",
+        "PN"
+      ]
+    },
+    "Name": {
+      "Primary": "Papua New Guinea",
+      "Variants": [
+        "Papua New Guinea"
+      ]
+    },
+    "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "PR",
+      "Variants": [
+        "PR",
+        "PT"
+      ]
+    },
+    "Name": {
+      "Primary": "Puerto Rico",
+      "Variants": [
+        "Puerto Rico"
+      ]
+    },
+    "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "CD",
+      "Variants": [
+        "CD",
+        "RC"
+      ]
+    },
+    "Name": {
+      "Primary": "Democratic Republic Of The Congo",
+      "Variants": [
+        "Democratic Republic Of The Congo"
+      ]
+    },
+    "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "SG",
+      "Variants": [
+        "SG",
+        "RS"
+      ]
+    },
+    "Name": {
+      "Primary": "Singapore",
+      "Variants": [
+        "Singapore"
+      ]
+    },
+    "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "SE",
+      "Variants": [
+        "SE",
+        "S"
+      ]
+    },
+    "Name": {
+      "Primary": "Sweden",
+      "Variants": [
+        "Sweden"
+      ]
+    },
+    "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "ZA",
+      "Variants": [
+        "ZA",
+        "SA"
+      ]
+    },
+    "Name": {
+      "Primary": "South Africa",
+      "Variants": [
+        "South Africa"
+      ]
+    },
+    "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "BQ",
+      "Variants": [
+        "BQ",
+        "SB"
+      ]
+    },
+    "Name": {
+      "Primary": "Bonaire, Sint Eustatius And Saba",
+      "Variants": [
+        "Bonaire, Sint Eustatius And Saba",
+        "Saba"
+      ]
+    },
+    "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "FI",
+      "Variants": [
+        "FI",
+        "SF"
+      ]
+    },
+    "Name": {
+      "Primary": "Finland",
+      "Variants": [
+        "Finland"
+      ]
+    },
+    "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "SL",
+      "Variants": [
+        "SL",
+        "SI"
+      ]
+    },
+    "Name": {
+      "Primary": "Sierra Leone",
+      "Variants": [
+        "Sierra Leone"
+      ]
+    },
+    "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "SA",
+      "Variants": [
+        "SA",
+        "SJ"
+      ]
+    },
+    "Name": {
+      "Primary": "Saudi Arabia",
+      "Variants": [
+        "Saudi Arabia"
+      ]
+    },
+    "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "ST",
+      "Variants": [
+        "ST",
+        "SP"
+      ]
+    },
+    "Name": {
+      "Primary": "Sao Tome And Principe",
+      "Variants": [
+        "Sao Tome And Principe",
+        "Democratic Republic Of São Tomé And Príncipe"
+      ]
+    },
+    "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "SK",
+      "Variants": [
+        "SK",
+        "SR"
+      ]
+    },
+    "Name": {
+      "Primary": "Slovakia",
+      "Variants": [
+        "Slovakia"
+      ]
+    },
+    "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "SR",
+      "Variants": [
+        "SR",
+        "SU"
+      ]
+    },
+    "Name": {
+      "Primary": "Suriname",
+      "Variants": [
+        "Suriname"
+      ]
+    },
+    "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "SZ",
+      "Variants": [
+        "SZ"
+      ]
+    },
+    "Name": {
+      "Primary": "Swaziland",
+      "Variants": [
+        "Swaziland"
+      ]
+    },
+    "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "TJ",
+      "Variants": [
+        "TJ",
+        "TA"
+      ]
+    },
+    "Name": {
+      "Primary": "Tajikistan",
+      "Variants": [
+        "Tajikistan"
+      ]
+    },
+    "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "UA",
+      "Variants": [
+        "UA",
+        "UK"
+      ]
+    },
+    "Name": {
+      "Primary": "Ukraine",
+      "Variants": [
+        "Ukraine"
+      ]
+    },
+    "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "EG",
+      "Variants": [
+        "EG",
+        "UN"
+      ]
+    },
+    "Name": {
+      "Primary": "Egypt",
+      "Variants": [
+        "Egypt"
+      ]
+    },
+    "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "VE",
+      "Variants": [
+        "VE",
+        "VC"
+      ]
+    },
+    "Name": {
+      "Primary": "Venezuela",
+      "Variants": [
+        "Venezuela"
+      ]
+    },
+    "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "VC",
+      "Variants": [
+        "VC",
+        "VE"
+      ]
+    },
+    "Name": {
+      "Primary": "St. Vincent And The Grenadines",
+      "Variants": [
+        "St. Vincent And The Grenadines",
+        "Saint Vincent and the Grenadines",
+        "St Vincent and Grenadi"
+      ]
+    },
+    "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "BB",
+      "Variants": [
+        "BB",
+        "WB"
+      ]
+    },
+    "Name": {
+      "Primary": "Barbados",
+      "Variants": [
+        "Barbados"
+      ]
+    },
+    "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "ZM",
+      "Variants": [
+        "ZM",
+        "ZA"
+      ]
+    },
+    "Name": {
+      "Primary": "Zambia",
+      "Variants": [
+        "Zambia"
+      ]
+    },
+    "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "VI",
+      "Variants": [
+        "VI",
+        "VN"
+      ]
+    },
+    "Name": {
+      "Primary": "U.S. Virgin Islands",
+      "Variants": [
+        "U.S. Virgin Islands",
+        "Virgin Islands"
       ]
     },
     "Localities": []

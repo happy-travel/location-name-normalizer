@@ -3,7 +3,7 @@ using BenchmarkDotNet.Diagnosers;
 using BenchmarkDotNet.Loggers;
 using BenchmarkDotNet.Running;
 
-namespace Benchmarks
+namespace HappyTravel.LocationNameNormalizer.Benchmarks
 {
     class Program
     {

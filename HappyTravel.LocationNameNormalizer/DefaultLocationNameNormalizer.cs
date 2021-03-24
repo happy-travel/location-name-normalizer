@@ -1,10 +1,10 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using LocationNameNormalizer.Extensions;
-using LocationNameNormalizer.Models;
+using HappyTravel.LocationNameNormalizer.Extensions;
+using HappyTravel.LocationNameNormalizer.Models;
 
-namespace LocationNameNormalizer
+namespace HappyTravel.LocationNameNormalizer
 {
     public class DefaultLocationNameNormalizer : ILocationNameNormalizer
     {

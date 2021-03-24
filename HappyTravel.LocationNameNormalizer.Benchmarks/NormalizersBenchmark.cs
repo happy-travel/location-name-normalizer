@@ -1,8 +1,8 @@
 ﻿using BenchmarkDotNet.Attributes;
 using BenchmarkDotNet.Jobs;
-using LocationNameNormalizer;
+using HappyTravel.LocationNameNormalizer;
 
-namespace Benchmarks
+namespace HappyTravel.LocationNameNormalizer.Benchmarks
 {
     [SimpleJob(RuntimeMoniker.NetCoreApp31)]
     [RPlotExporter, AllStatisticsColumn, MemoryDiagnoser]

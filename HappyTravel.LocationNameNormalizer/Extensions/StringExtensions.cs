@@ -5,7 +5,7 @@ using System.Net;
 using System.Text.RegularExpressions;
 using HtmlAgilityPack;
 
-namespace LocationNameNormalizer.Extensions
+namespace HappyTravel.LocationNameNormalizer.Extensions
 {
     public static class StringExtensions
     {

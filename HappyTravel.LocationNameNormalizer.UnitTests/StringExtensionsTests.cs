@@ -1,5 +1,5 @@
 using Xunit;
-using LocationNameNormalizer.Extensions;
+using HappyTravel.LocationNameNormalizer.Extensions;
 
 namespace LocationNameNormalizer.UnitTests
 {

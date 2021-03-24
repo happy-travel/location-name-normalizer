@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace LocationNameNormalizer
+namespace HappyTravel.LocationNameNormalizer
 {
     public interface ILocationNameNormalizer
     {

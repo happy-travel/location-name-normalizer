@@ -2,11 +2,11 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
-using LocationNameNormalizer.Models;
+using HappyTravel.LocationNameNormalizer.Models;
 using Newtonsoft.Json;
 using JsonSerializer = Newtonsoft.Json.JsonSerializer;
 
-namespace LocationNameNormalizer
+namespace HappyTravel.LocationNameNormalizer
 {
     public class FileLocationNameRetriever : ILocationNameRetriever
     {

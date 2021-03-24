@@ -1,9 +1,8 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
         <TargetFramework>net5.0</TargetFramework>
         <IsPackable>false</IsPackable>
-        <RootNamespace>LocationNameNormalizer.UnitTests</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
@@ -21,7 +20,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\LocationNameNormalizer\LocationNameNormalizer.csproj" />
+      <ProjectReference Include="..\HappyTravel.LocationNameNormalizer\HappyTravel.LocationNameNormalizer.csproj" />
     </ItemGroup>
 
 </Project>

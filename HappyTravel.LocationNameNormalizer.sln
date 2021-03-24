@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30002.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LocationNameNormalizer", "LocationNameNormalizer\LocationNameNormalizer.csproj", "{0CEE0051-C332-4E43-AB63-C4C857B7834E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HappyTravel.LocationNameNormalizer", "LocationNameNormalizer\HappyTravel.LocationNameNormalizer.csproj", "{0CEE0051-C332-4E43-AB63-C4C857B7834E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LocationNameNormalizer.UnitTests", "LocationNameNormalizer.UnitTests\LocationNameNormalizer.UnitTests.csproj", "{6F334E45-DC20-4A10-B696-7DB871E1D1C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HappyTravel.LocationNameNormalizer.UnitTests", "LocationNameNormalizer.UnitTests\HappyTravel.LocationNameNormalizer.UnitTests.csproj", "{6F334E45-DC20-4A10-B696-7DB871E1D1C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmarks", "Benchmarks\Benchmarks.csproj", "{D3A7F9F5-588F-42FC-A9BA-9B36FD714B07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HappyTravel.LocationNameNormalizer.Benchmarks", "Benchmarks\HappyTravel.LocationNameNormalizer.Benchmarks.csproj", "{D3A7F9F5-588F-42FC-A9BA-9B36FD714B07}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

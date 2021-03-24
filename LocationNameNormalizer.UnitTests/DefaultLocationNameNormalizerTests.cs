@@ -1,10 +1,10 @@
 using System.Collections.Generic;
 using System.Linq;
-using LocationNameNormalizer.Models;
+using HappyTravel.LocationNameNormalizer.Models;
 using Moq;
 using Xunit;
 
-namespace LocationNameNormalizer.UnitTests
+namespace HappyTravel.LocationNameNormalizer.UnitTests
 {
     public class DefaultLocationNameNormalizerTests
     {

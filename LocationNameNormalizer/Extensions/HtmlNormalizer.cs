@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.Linq;
 using HtmlAgilityPack;
 
-namespace LocationNameNormalizer.Extensions
+namespace HappyTravel.LocationNameNormalizer.Extensions
 {
     public static class HtmlNormalizer
     {

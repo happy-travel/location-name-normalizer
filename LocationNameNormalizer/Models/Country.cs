@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace LocationNameNormalizer.Models
+namespace HappyTravel.LocationNameNormalizer.Models
 {
     public class Country
     {

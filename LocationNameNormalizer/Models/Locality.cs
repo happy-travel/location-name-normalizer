@@ -1,5 +1,4 @@
-
-namespace LocationNameNormalizer.Models
+namespace HappyTravel.LocationNameNormalizer.Models
 {
     public class Locality
     {

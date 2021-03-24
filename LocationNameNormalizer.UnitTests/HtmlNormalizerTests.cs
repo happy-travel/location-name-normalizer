@@ -1,8 +1,8 @@
 using HtmlAgilityPack;
-using LocationNameNormalizer.Extensions;
+using HappyTravel.LocationNameNormalizer.Extensions;
 using Xunit;
 
-namespace LocationNameNormalizer.UnitTests
+namespace HappyTravel.LocationNameNormalizer.UnitTests
 {
     public class HtmlNormalizerTests
     {

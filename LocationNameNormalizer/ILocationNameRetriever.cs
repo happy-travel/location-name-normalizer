@@ -1,7 +1,7 @@
 using System.Collections.Generic;
-using LocationNameNormalizer.Models;
+using HappyTravel.LocationNameNormalizer.Models;
 
-namespace LocationNameNormalizer
+namespace HappyTravel.LocationNameNormalizer
 {
     public interface ILocationNameRetriever
     {

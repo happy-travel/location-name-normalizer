@@ -10,7 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\LocationNameNormalizer\LocationNameNormalizer.csproj" />
+    <ProjectReference Include="..\HappyTravel.LocationNameNormalizer\HappyTravel.LocationNameNormalizer.csproj" />
   </ItemGroup>
 
 </Project>

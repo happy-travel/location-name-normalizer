@@ -1977,5 +1977,21 @@
       ]
     },
     "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "MW",
+      "Variants": [
+        "MW",
+        "WM"
+      ]
+    },
+    "Name": {
+      "Primary": "Malawi",
+      "Variants": [
+        "Malawi"
+      ]
+    },
+    "Localities": []
   }
 ]

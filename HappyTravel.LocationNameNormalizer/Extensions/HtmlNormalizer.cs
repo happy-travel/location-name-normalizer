@@ -22,7 +22,8 @@ namespace HappyTravel.LocationNameNormalizer.Extensions
         5. <br> tag
         a. Multiple <br> tags are prohibited/
         After <h1> <ul> <p> <br> cannot go
-        b. <br/> <br></br> tags should have one standard writing*/
+        b. <br/> <br></br> tags should have one standard writing
+        6. If html contains only br tags, replace them to whiteSpace*/
         public static string NormalizeInlineHtml(this string target)
         {
             HtmlDocument.DisableBehaviorTagP = false;
@@ -183,6 +184,7 @@ namespace HappyTravel.LocationNameNormalizer.Extensions
             return htmlDocument;
         }
 
+        
         private static HtmlDocument ReplaceBrTagsToWhiteSpaceIfNeeded(this HtmlDocument htmlDocument)
         {
             if (htmlDocument.DocumentNode.Descendants().All(d => d.Name == "br" || d.NodeType == HtmlNodeType.Text))
@@ -207,8 +209,7 @@ namespace HappyTravel.LocationNameNormalizer.Extensions
 
         private static readonly Dictionary<string, string> TagsToReplace = new Dictionary<string, string>
         {
-            {"strong", "b"}, {"em", "i"}, {"ol", "ul"}, {"h2", "h1"}, {"h3", "h1"}, {"h4", "h1"}, {"h5", "h1"},
-            {"h6", "h1"}
+            {"strong", "b"}, {"em", "i"}, {"ol", "ul"}, {"h2", "h1"}, {"h3", "h1"}, {"h4", "h1"}, {"h5", "h1"}, {"h6", "h1"}
         };
     }
 }

@@ -100,8 +100,7 @@ namespace HappyTravel.LocationNameNormalizer.UnitTests
         [Fact]
         public void Should_process_br_tags()
         {
-            var html =
-                @"<p><br><ol><br>Property Location<br></ol><br><br><br> With a stay at Marriott Hotel Downtown, Abu Dhabi, you''ll be centrally located in Abu
+            var html = @"<p><br><ol><br>Property Location<br></ol><br><br><br> With a stay at Marriott Hotel Downtown, Abu Dhabi, you''ll be centrally located in Abu
     Dhabi, steps from Al Wahda Mall and Caracal Shooting Club. This 5-star hotel is within close proximity of Shaikh
     Khalifa Medical City and Al Nahyan Stadium.<br /><br /><br /></p>";
 
@@ -118,13 +117,11 @@ namespace HappyTravel.LocationNameNormalizer.UnitTests
         [Fact]
         public void Should_close_not_closed_tags()
         {
-            var html =
-                @"<p><br><ul><br>Property Location With a stay at Marriott Hotel Downtown, Abu Dhabi, you''ll be centrally located in Abu
+            var html = @"<p><br><ul><br>Property Location With a stay at Marriott Hotel Downtown, Abu Dhabi, you''ll be centrally located in Abu
     Dhabi, steps from Al Wahda Mall and Caracal Shooting Club. This 5-star hotel is within close proximity of Shaikh
     Khalifa Medical City and Al Nahyan Stadium.";
 
-            var outerHtml =
-                @"<p><ul>Property Location With a stay at Marriott Hotel Downtown, Abu Dhabi, you''ll be centrally located in Abu
+            var outerHtml = @"<p><ul>Property Location With a stay at Marriott Hotel Downtown, Abu Dhabi, you''ll be centrally located in Abu
     Dhabi, steps from Al Wahda Mall and Caracal Shooting Club. This 5-star hotel is within close proximity of Shaikh
     Khalifa Medical City and Al Nahyan Stadium.</ul>";
 
@@ -138,10 +135,21 @@ namespace HappyTravel.LocationNameNormalizer.UnitTests
         public void Should_remove_empty_div_tags()
         {
             var html = @"<html><body><b>Some text</b><div>   </div><br>Text after br.</html></body>";
-            
+
             var result = html.NormalizeInlineHtml();
 
-            Assert.True(result == "<b>Some text</b><br>Text after br.");   
+            Assert.True(result == "<b>Some text</b><br>Text after br.");
+        }
+        
+
+        [Fact]
+        public void Should_replace_br_tags_to_space_when_exists_only_br_tags()
+        {
+            var html = @"<br>Catch some<br><br><br><br>rays on Jumeirah Al Naseem''s private beach or spend the day relaxing at the full-service spa. Then enjoy a<br><br>";
+
+            var result = html.NormalizeInlineHtml();
+
+            Assert.True(result == "Catch some rays on Jumeirah Al Naseem''s private beach or spend the day relaxing at the full-service spa. Then enjoy a");
         }
     }
 }

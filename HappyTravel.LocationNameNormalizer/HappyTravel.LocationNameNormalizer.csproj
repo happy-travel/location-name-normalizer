@@ -6,8 +6,8 @@
         <Authors>Hasmik Harutyunyan, Oleg Konovalov, Kirill Taran</Authors>
         <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <Version>1.6.8</Version>
-        <PackageReleaseNotes>Replace br tags with space when in html only br tags</PackageReleaseNotes>
+        <Version>1.6.9</Version>
+        <PackageReleaseNotes>Remove recursive empty tags</PackageReleaseNotes>
         <Description>Location name normalizer</Description>
         <PackageProjectUrl>https://github.com/happy-travel/location-name-normalizer</PackageProjectUrl>
         <RepositoryURL>https://github.com/happy-travel/location-name-normalizer</RepositoryURL>

@@ -74,13 +74,17 @@ namespace HappyTravel.LocationNameNormalizer.Extensions
 
         private static HtmlDocument RemoveEmptyTags(this HtmlDocument htmlDocument)
         {
-            var nodesToRemove = htmlDocument.DocumentNode.Descendants()
-                .Where(n => !HtmlNode.IsClosedElement(n.Name)
-                    && n.NodeType == HtmlNodeType.Element
-                    && string.IsNullOrWhiteSpace(n.InnerHtml)).ToList();
+            var nodesToRemove = new List<HtmlNode>();
+            do
+            {
+                nodesToRemove = htmlDocument.DocumentNode.Descendants()
+                    .Where(n => !HtmlNode.IsClosedElement(n.Name)
+                        && n.NodeType == HtmlNodeType.Element
+                        && string.IsNullOrWhiteSpace(n.InnerHtml)).ToList();
 
-            foreach (var node in nodesToRemove)
-                node.ParentNode.RemoveChild(node, false);
+                foreach (var node in nodesToRemove)
+                    node.ParentNode.RemoveChild(node, false);
+            } while (nodesToRemove.Any());
 
             return htmlDocument;
         }
@@ -184,7 +188,7 @@ namespace HappyTravel.LocationNameNormalizer.Extensions
             return htmlDocument;
         }
 
-        
+
         private static HtmlDocument ReplaceBrTagsToWhiteSpaceIfNeeded(this HtmlDocument htmlDocument)
         {
             if (htmlDocument.DocumentNode.Descendants().All(d => d.Name == "br" || d.NodeType == HtmlNodeType.Text))

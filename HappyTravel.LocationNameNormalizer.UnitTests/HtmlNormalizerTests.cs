@@ -141,6 +141,17 @@ namespace HappyTravel.LocationNameNormalizer.UnitTests
             Assert.True(result == "<b>Some text</b><br>Text after br.");
         }
         
+        [Fact]
+        public void Should_remove_recursive_empty_tags()
+        {
+            var html = @"<html><body><b>Some text</b><div><span> </span></div></html></body>";
+
+            var result = html.NormalizeInlineHtml();
+
+            Assert.True(result == "<b>Some text</b>");
+        }
+
+        
 
         [Fact]
         public void Should_replace_br_tags_to_space_when_exists_only_br_tags()

@@ -1485,12 +1485,22 @@
       ]
     },
     "Name": {
-      "Primary": "Kuwait",
+      "Primary": "The State of Kuwait",
       "Variants": [
+        "The State of Kuwait",
+        "State of Kuwait",
         "Kuwait"
       ]
     },
-    "Localities": []
+    "Localities": [{
+      "Name": {
+        "Primary": "Kuwait City",
+        "Variants": [
+          "Kuwait City",
+          "Kuwait"
+        ]
+      }
+    }]
   },
   {
     "Code": {
@@ -1550,12 +1560,22 @@
       ]
     },
     "Name": {
-      "Primary": "Mexico",
+      "Primary": "The United Mexican States",
       "Variants": [
+        "The United Mexican States",
+        "United Mexican States",
         "Mexico"
       ]
     },
-    "Localities": []
+    "Localities": [{
+      "Name": {
+        "Primary": "Mexico City",
+        "Variants": [
+          "Mexico City",
+          "Mexico"
+        ]
+      }
+    }]
   },
   {
     "Code": {
@@ -1615,12 +1635,22 @@
       ]
     },
     "Name": {
-      "Primary": "Panama",
+      "Primary": "The Republic of Panama",
       "Variants": [
+        "The Republic of Panama",
+        "Republic of Panama",
         "Panama"
       ]
     },
-    "Localities": []
+    "Localities": [{
+      "Name": {
+        "Primary": "Panama City",
+        "Variants": [
+          "Panama City",
+          "Panama"
+        ]
+      }
+    }]
   },
   {
     "Code": {
@@ -1679,12 +1709,21 @@
       ]
     },
     "Name": {
-      "Primary": "Singapore",
+      "Primary": "The Republic of Singapore",
       "Variants": [
+        "The Republic of Singapore",
+        "Republic of Singapore",
         "Singapore"
       ]
     },
-    "Localities": []
+    "Localities": [{
+      "Name": {
+        "Primary": "Singapore",
+        "Variants": [
+          "Singapore"
+        ]
+      }
+    }]
   },
   {
     "Code": {
@@ -1993,5 +2032,178 @@
       ]
     },
     "Localities": []
+  },
+  {
+    "Code": {
+      "Primary": "VA",
+      "Variants": [
+        "VA"
+      ]
+    },
+    "Name": {
+      "Primary": "Vatican City",
+      "Variants": [
+        "Vatican City",
+        "Vatican",
+        "The Vatican City State"
+      ]
+    },
+    "Localities": [{
+      "Name": {
+        "Primary": "Vatican City",
+        "Variants": [
+          "Vatican City"
+        ]
+      }
+    }]
+  },
+  {
+    "Code": {
+      "Primary": "AD",
+      "Variants": [
+        "AD"
+      ]
+    },
+    "Name": {
+      "Primary": "The Principality of Andorra",
+      "Variants": [
+        "The Principality of Andorra",
+        "Principality of Andorra",
+        "Andorra"
+      ]
+    },
+    "Localities": [{
+      "Name": {
+        "Primary": "Andorra la Vella",
+        "Variants": [
+          "Andorra la Vella"
+        ]
+      }
+    }]
+  },
+  {
+    "Code": {
+      "Primary": "DJ",
+      "Variants": [
+        "DJ"
+      ]
+    },
+    "Name": {
+      "Primary": "The Republic of Djibouti",
+      "Variants": [
+        "The Republic of Djibouti",
+        "Republic of Djibouti",
+        "Djibouti"
+      ]
+    },
+    "Localities": [{
+      "Name": {
+        "Primary": "Djibouti",
+        "Variants": [
+          "Djibouti"
+        ]
+      }
+    }]
+  },
+  {
+    "Code": {
+      "Primary": "LU",
+      "Variants": [
+        "LU"
+      ]
+    },
+    "Name": {
+      "Primary": "Luxembourg",
+      "Variants": [
+        "Luxembourg",
+        "Grand Duchy of Luxembourg"
+      ]
+    },
+    "Localities": [{
+      "Name": {
+        "Primary": "Luxembourg City",
+        "Variants": [
+          "Luxembourg City",
+          "Luxembourg"
+        ]
+      }
+    }]
+  },
+  {
+    "Code": {
+      "Primary": "MC",
+      "Variants": [
+        "MC"
+      ]
+    },
+    "Name": {
+      "Primary": "The Principality of Monaco",
+      "Variants": [
+        "The Principality of Monaco",
+        "Principality of Monaco",
+        "Monaco"
+      ]
+    },
+    "Localities": [{
+      "Name": {
+        "Primary": "Monaco",
+        "Variants": [
+          "Monaco"
+        ]
+      }
+    }]
+  },
+  {
+    "Code": {
+      "Primary": "SM",
+      "Variants": [
+        "SM"
+      ]
+    },
+    "Name": {
+      "Primary": "The Republic of San Marino",
+      "Variants": [
+        "The Republic of San Marino",
+        "Republic of San Marino",
+        "San Marino",
+        "The Most Serene Republic of San Marino",
+        "Most Serene Republic of San Marino"
+      ]
+    },
+    "Localities": [{
+      "Name": {
+        "Primary": "San Marino",
+        "Variants": [
+          "San Marino",
+          "The City of San Marino",
+          "City of San Marino"
+        ]
+      }
+    }]
+  },
+  {
+    "Code": {
+      "Primary": "GT",
+      "Variants": [
+        "GT"
+      ]
+    },
+    "Name": {
+      "Primary": "The Republic of Guatemala",
+      "Variants": [
+        "The Republic of Guatemala",
+        "Republic of Guatemala",
+        "Guatemala"
+      ]
+    },
+    "Localities": [{
+      "Name": {
+        "Primary": "Guatemala City",
+        "Variants": [
+          "Guatemala City",
+          "Guatemala"
+        ]
+      }
+    }]
   }
 ]

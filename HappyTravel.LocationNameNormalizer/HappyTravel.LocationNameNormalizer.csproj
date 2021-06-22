@@ -12,6 +12,7 @@
         <PackageProjectUrl>https://github.com/happy-travel/location-name-normalizer</PackageProjectUrl>
         <RepositoryURL>https://github.com/happy-travel/location-name-normalizer</RepositoryURL>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageVersion>1.6.10</PackageVersion>
     </PropertyGroup>
 
     <ItemGroup>
